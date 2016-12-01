@@ -54,7 +54,7 @@
         <h3 class="panel-title">Purchase History</h3>
     </div>
     <div class="panel-body"  style="margin-left:20px">
-        <% if (purchaseinfo.length > 0) {for(var i=0; i<purchaseinfo.length; i++) { %>
+        <% if (purchaseinfo && purchaseinfo.length > 0) {for(var i=0; i<purchaseinfo.length; i++) { %>
         <p><%= i+1 %>. You purchased items worth : $<%= purchaseinfo[i].product_price %> on <%= purchaseinfo[i].transactionTime%></p>
         <%}} else {%>
         <p>You haven't made any purchases!</p>
@@ -68,7 +68,7 @@
     </div>
     <div class="panel-body"  style="margin-left:20px">
 
-        <% if (soldinfo.length > 0 ) { for(var i=0; i<soldinfo.length; i++) { %>
+        <% if (soldinfo && soldinfo.length > 0 ) { for(var i=0; i<soldinfo.length; i++) { %>
         <p><%= i+1 %>. You sold items worth : $<%= soldinfo[i].product_price %> on <%= soldinfo[i].transactionTime%></p>
         <%}} else { %>
         <p> You haven't made any sales.</p>
@@ -77,7 +77,7 @@
 </div>
 
 <div style="margin-left:20px;">
-    <a href="/homepage" style="background-color:#747b82"type="button" class="btn btn-primary">Homepage</a>
+    <a href="/homepage" style="background-color:#747b82" type="button" class="btn btn-primary">Homepage</a>
 </div>
 <br>
 <br>

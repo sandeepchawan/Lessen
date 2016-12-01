@@ -20,8 +20,10 @@ exports.cart = function (req, res) {
                 throw err;
             } else {
                 var cart_total = 0;
-                for (var i = 0; i < user.cart.length; i++) {
-                    cart_total += parseInt(user.cart[i].product_price);
+                if (user.cart) {
+                    for (var i = 0; i < user.cart.length; i++) {
+                        cart_total += parseInt(user.cart[i].product_price);
+                    }
                 }
                 console.log("Cart total after calculation is: ", cart_total);
                 res.render('cart', {
@@ -29,7 +31,7 @@ exports.cart = function (req, res) {
                     items: user.cart,
                     // total: user.cart_total,
                     total: cart_total,
-                    user: req.session.user,
+                    user: req.session.user
                     //seller: req.session.seller
                 });
             }

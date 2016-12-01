@@ -13,7 +13,7 @@
 <div id="maincontent" class="col-sm-100 clearfix">
     <div id="leftcontent">
         <div id="shopcart" class="leftdiv">
-            <% if(items.length != 0) {for(var i = 0; i < items.length; i++) {%>
+            <% if(items && items.length != 0) {for(var i = 0; i < items.length; i++) {%>
             <div class="insidecart">
                 <div class="sellrow">
                     Seller:<span style="color:grey;margin-left:10px"><%= items[i].product_seller.user_firstName%> <%= items[i].product_seller.user_lastName%></span>

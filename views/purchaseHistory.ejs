@@ -23,7 +23,7 @@
         <h3 class="panel-title">Purchase History</h3>
     </div>
     <div class="panel-body" style="margin-left:20px">
-        <% if (purchaseInfo.length > 0) {for(var i=0; i<purchaseInfo.length; i++) { %>
+        <% if (purchaseInfo && purchaseInfo.length > 0) {for(var i=0; i<purchaseInfo.length; i++) { %>
         <p><%= i+1 %>. You purchased items worth : $<%= purchaseInfo[i].product_price %> on <%= purchaseInfo[i].transactionTime%></p>
         <%}} else {%>
         <p>You haven't made any purchases!</p>
