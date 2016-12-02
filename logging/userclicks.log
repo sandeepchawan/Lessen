@@ -37,3 +37,29 @@
 {"level":"info","message":"User Sandeep Kumar is being redirected to homepage","timestamp":"2016-11-28T01:54:40.197Z"}
 {"level":"info","message":"User Sandeep Kumar is being redirected to homepage","timestamp":"2016-11-28T01:56:20.358Z"}
 {"level":"info","message":"User Sandeep Kumar is being redirected to homepage","timestamp":"2016-11-28T01:56:37.579Z"}
+{"level":"info","message":"New user sand@sand.com trying to register","timestamp":"2016-12-02T04:45:20.673Z"}
+{"level":"info","message":"New user sand@sand.com trying to register","timestamp":"2016-12-02T04:48:24.900Z"}
+{"level":"info","message":"sand@sand.com trying to login","timestamp":"2016-12-02T04:48:33.776Z"}
+{"level":"info","message":"sand@sand.com logged in","timestamp":"2016-12-02T04:48:34.654Z"}
+{"level":"info","message":"User Sandeep is being redirected to homepage","timestamp":"2016-12-02T04:48:34.678Z"}
+{"level":"info","message":"User Sandeep is trying to sell a product","timestamp":"2016-12-02T04:50:48.511Z"}
+{"level":"info","message":"User Sandeep is trying to sell a product directly","timestamp":"2016-12-02T04:51:26.593Z"}
+{"level":"info","message":"User Sandeep is being redirected to homepage","timestamp":"2016-12-02T04:51:27.307Z"}
+{"level":"info","message":"User Sandeep is viewing product 5840fdcf6b5221029d8d37d8","timestamp":"2016-12-02T04:51:33.324Z"}
+{"level":"info","message":"sand@sand.com trying to login","timestamp":"2016-12-02T06:26:22.466Z"}
+{"level":"info","message":"sand@sand.com logged in","timestamp":"2016-12-02T06:26:23.905Z"}
+{"level":"info","message":"User Sandeep is being redirected to homepage","timestamp":"2016-12-02T06:26:23.925Z"}
+{"level":"info","message":"User Sandeep is viewing product 5840fdcf6b5221029d8d37d8","timestamp":"2016-12-02T06:26:35.096Z"}
+{"level":"info","message":"User Sandeep is being redirected to homepage","timestamp":"2016-12-02T06:26:40.079Z"}
+{"level":"info","message":"User Sandeep is trying to sell a product","timestamp":"2016-12-02T06:26:42.111Z"}
+{"level":"info","message":"User Sandeep is being redirected to homepage","timestamp":"2016-12-02T06:26:53.838Z"}
+{"level":"info","message":"User Sandeep is viewing product 5840fdcf6b5221029d8d37d8","timestamp":"2016-12-02T06:26:57.240Z"}
+{"level":"info","message":"User Sandeep is adding product5840fdcf6b5221029d8d37d8to his cart","timestamp":"2016-12-02T06:26:59.790Z"}
+{"level":"info","message":"User Sandeep is checking the items in his cart","timestamp":"2016-12-02T06:27:00.597Z"}
+{"level":"info","message":"User Sandeep is checking the items in his cart","timestamp":"2016-12-02T06:27:45.795Z"}
+{"level":"info","message":"User Sandeep is being redirected to homepage","timestamp":"2016-12-02T06:27:52.630Z"}
+{"level":"info","message":"User Sandeep is checking the items in his cart","timestamp":"2016-12-02T06:28:05.982Z"}
+{"level":"info","message":"User Sandeep is ready to make a payment","timestamp":"2016-12-02T06:28:11.640Z"}
+{"level":"info","message":"User Sandeep is trying to do a cart checkout","timestamp":"2016-12-02T06:28:23.333Z"}
+{"level":"info","message":"User Sandeep is being redirected to homepage","timestamp":"2016-12-02T06:28:43.596Z"}
+{"level":"info","message":"User Sandeep is trying to sell a product","timestamp":"2016-12-02T06:28:57.380Z"}

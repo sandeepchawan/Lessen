@@ -16,7 +16,7 @@
             <% if(items && items.length != 0) {for(var i = 0; i < items.length; i++) {%>
             <div class="insidecart">
                 <div class="sellrow">
-                    Seller:<span style="color:grey;margin-left:10px"><%= items[i].product_seller.user_firstName%> <%= items[i].product_seller.user_lastName%></span>
+                    Donor:<span style="color:grey;margin-left:10px"><%= items[i].product_seller.user_firstName%> <%= items[i].product_seller.user_lastName%></span>
                 </div>
                 <a href="/showproduct/<%= items[i]._id%>"><%=items[i].product_name%></a>
                 $<%=items[i].product_price%>

@@ -24,9 +24,9 @@
     </div>
     <div class="panel-body" style="margin-left:20px">
         <% if (soldInfo && soldInfo.length > 0 ) { for(var i=0; i<soldInfo.length; i++) { %>
-        <p><%= i+1 %>>. You sold items worth : $<%= soldInfo[i].product_price %> on <%= soldInfo[i].transactionTime%></p>
+        <p><%= i+1 %>>. You donated items worth : $<%= soldInfo[i].product_price %> on <%= soldInfo[i].transactionTime%></p>
         <%}} else { %>
-        <p> You haven't made any sales.</p>
+        <p> You haven't made any donations.</p>
         <%}%>
     </div>
 </div>

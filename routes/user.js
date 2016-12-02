@@ -1,5 +1,6 @@
 var mongo = require("./mongo");
-var mongoURL = "mongodb://localhost:27017/lessen";
+//var mongoURL = "mongodb://localhost:27017/lessen";
+var mongoURL = "mongodb://admin:admin@ds119768.mlab.com:19768/lessen";
 var lessenlogger = require('./lessenlogger');
 
 exports.show = function(req, res) {

@@ -2,7 +2,8 @@ var lessenlogger = require('./lessenlogger');
 var ejs = require('ejs');
 var sha256 =  require('crypto-js/sha256');
 var mongo = require("./mongo");
-var mongoURL = "mongodb://localhost:27017/lessen";
+//var mongoURL = "mongodb://localhost:27017/lessen";
+var mongoURL = "mongodb://admin:admin@ds119768.mlab.com:19768/lessen";
 
 var invalid_login = false;
 var invalid_first_name = false;
