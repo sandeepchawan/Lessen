@@ -102,23 +102,31 @@
 </nav>
 
 <div class="container">
-    <% for(var i = 0; i < products.length;i++){%>
+  <!--   for(var i = 0; i < products.length;i++){
     <div class="spe-prods">
         <div class="mainbox">
-            <h3><%= products[i].product_name%></h3>
-            <%= products[i].product_desc%>
+            <h3>Product name</h3>
+            <h4>product_desc</h4>
+            <img  src="products[i].product_image_url" width="200" height="150"></img>
         </div>
 
         <div class="price-big">
             <div>
                 <div class="floatting-price">
-                    <h4>$<%=products[i].product_price%></h4>
+                    <h4>$%=products[i].product_price%</h4>
                 </div>
             </div>
             <div class="ordersection">
-                <a href="/showproduct/<%=products[i]._id%>" class="buybtn">Show more</a>
+                <a href="/showproduct/%=products[i]._id%" class="buybtn">Show more</a>
             </div>
         </div>
+    </div>
+    } -->
+    <% for(var i = 0; i < products.length;i++){%>
+    <div class="col-md-2  column productbox"  style="margin-left: 5%">
+        <img src="<%= products[i].product_image_url%>" class="img-responsive">
+        <div class="producttitle"><%= products[i].product_name%></div>
+        <div class="productprice"><div class="pull-right"><a href="/showproduct/<%=products[i]._id%>" class="btn btn-danger btn-sm" role="button">Show more</a></div><div class="pricetext">$<%=products[i].product_price%></div></div>
     </div>
     <% } %>
 </div>

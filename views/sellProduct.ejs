@@ -35,8 +35,8 @@
 
 <form  style ="display:none" id="form1"><label>Form 1<input type="text"/> </label></form>
 
-<form  style ="display:none" id="form2"><label>Form 2<input type="text"/> </label></form>
-<form  style ="display:none" id = "f1" method="post" action= "/directsell">
+<form  style ="display:none" id="form2" ><label>Form 2<input type="text"/> </label></form>
+<form  style ="display:none" id = "f1"  encType="multipart/form-data" method="post" action= "/directsell">
     <table cellpadding="20" border="0">
         <tr><td> Product Name:  </td><td>   <input type="text" name="productName" required/></td></tr>
         <tr> <td><p> </p></td><td><p> </p></td> </tr>
@@ -65,12 +65,13 @@
                     <option value="1">Used</option>
                 </select></td></tr>
         <tr> <td><p> </p></td><td><p> </p></td> </tr>
+        <tr><td>Image: </td><td> <input type="file" name="imageFile" accept=".jpeg,.png,.jpg" required/></td></tr>
         <tr> <td><p> </p></td><td><p> </p></td> </tr>
     </table>
     <input type="submit" class="btn btn-primary" value="Donate"/>
 </form>
 
-<form  style ="display:none;" id = "f2" method="post" action= "/auctionsell" >
+<form  style ="display:none;" id = "f2" encType="multipart/form-data" method="post" action= "/auctionsell" >
 
     <table cellpadding="20" border="0">
         <tr><td>Product Name:</td><td>  <input type="text" name="productName" required/></td></tr>
@@ -103,6 +104,7 @@
                     <option value="1">Used</option>
                 </select></td></tr>
         <tr> <td><p> </p></td><td><p> </p></td> </tr>
+        <tr><td>Image: </td><td> <input type="file" name="imageFile" accept=".jpeg,.png,.jpg" required/></td></tr>
         <tr> <td><p> </p></td><td><p> </p></td> </tr>
     </table>
 

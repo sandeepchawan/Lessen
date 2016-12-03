@@ -6,14 +6,15 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var winston = require('winston');
-
+var fileUpload = require('express-fileupload');
+var cloudinary = require('cloudinary');
 
 var session = require('client-sessions');
 
 var mongo = require("./routes/mongo");
 
-//var mongoURL = "mongodb://localhost:27017/lessen";
-var mongoURL = "mongodb://admin:admin@ds119768.mlab.com:19768/lessen";
+var mongoURL = "mongodb://localhost:27017/lessen";
+//var mongoURL = "mongodb://admin:admin@ds119768.mlab.com:19768/lessen";
 
 var routes = require('./routes');
 var user = require('./routes/user');
@@ -31,19 +32,26 @@ app.use(session({
     })
 ); // setting time for the session to be active when the window is open // 10 minutes set currently
 
-
+cloudinary.config({
+    cloud_name: 'sandeepchawan',
+    api_key: '425614399789695',
+    api_secret: 'TU7K6_zZrF50hQ-r233hgZwlBOc'
+});
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.set('port', process.env.PORT || 3000);
+
 
 app.use(favicon());
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(cookieParser());
+app.use(fileUpload());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(app.router);
+
 
 app.get('/', login.login);
 app.get('/login', login.login);

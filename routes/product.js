@@ -1,7 +1,12 @@
 var lessenlogger = require('./lessenlogger');
 var mongo = require("./mongo");
-//var mongoURL = "mongodb://localhost:27017/lessen";
-var mongoURL = "mongodb://admin:admin@ds119768.mlab.com:19768/lessen";
+var crypto = require('crypto');
+var mongoURL = "mongodb://localhost:27017/lessen";
+//var mongoURL = "mongodb://admin:admin@ds119768.mlab.com:19768/lessen";
+var imgStorageLoc = "/Users/apoorvajagadeesh/Desktop/lessenImages/";
+//var imgStorageLoc = "https://drive.google.com/drive/folders/0B8PtUw3ryOIqWTVZbHN5aUZ2SGc?usp=sharing/";
+//var imgStorageLoc = "https://drive.google.com/open?id=0B8PtUw3ryOIqWTVZbHN5aUZ2SGc/";
+var cloudinary = require('cloudinary');
 
 exports.listproducts = function (req, res) {
 
@@ -46,7 +51,7 @@ exports.showProduct = function (req, res) {
                         throw err;
                     else {
                         req.session.product = product;
-                        res.render('productInfo', {
+                        res.render('productInfo1', {
                             title: product.product_name,
                             user: req.session.user,
                             product: product,
@@ -75,6 +80,7 @@ function getCategory(callback) {
 exports.sell = function (req, res) {
 
     lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is trying to sell a product');
+
     mongo.connect(mongoURL, function () {
         console.log('Connected to mongo at: ' + mongoURL);
         var coll = mongo.collection('category');
@@ -94,6 +100,11 @@ exports.sell = function (req, res) {
 };
 
 exports.directSell = function (req, res) {
+
+    var imageFile;
+    var product_image_url;
+    var randomNumber = crypto.randomBytes(16).toString('hex');
+
     if (!req.session.user) {
         // res.redirect('/login');
         res.redirect('/');
@@ -132,6 +143,31 @@ exports.directSell = function (req, res) {
             category_name = "Other";
         }
 
+        if (!req.files) {
+            console.log('No files were uploaded.');
+        }
+
+       // console.log('FIRST TEST: ' + JSON.stringify(req.files));
+       // console.log('second TEST: ' +req.files.imageFile.path);
+
+        imageFile = req.files.imageFile;
+
+        console.log("Random number is: ", randomNumber);
+        product_image_url = imgStorageLoc+randomNumber+req.files.imageFile.name;
+        console.log("Product Local image URL is: ", product_image_url);
+
+        imageFile.mv(product_image_url, function(err) {
+            if (err) {
+                console.log('File movement failed.');
+                throw err;
+            }
+            else {
+                console.log('File uploaded successfully!');
+            }
+        });
+
+
+
         mongo.connect(mongoURL, function () {
             console.log('Connected to mongo at: ' + mongoURL);
             var productColl = mongo.collection('product');
@@ -140,6 +176,11 @@ exports.directSell = function (req, res) {
             // catColl.findOne({"category_id": cat_id}, function(err, cat){
             // catColl.find({"category_id": cat_id}).limit(1).next(function(err, cat){
             //find(query).limit(1).next(function(err, doc){
+
+            cloudinary.uploader.upload(product_image_url, function(result) {
+                //     console.log(result);
+                product_image_url = result.url;
+                console.log("Product CLOUDINARY 1 image URL is: ", product_image_url);
 
             productColl.insertOne({
                 product_name: name,
@@ -156,7 +197,8 @@ exports.directSell = function (req, res) {
                 product_bid_end_time: 0,
                 Product_bid_start_time: 0,
                 product_bid_end: 0,
-                product_max_bid_price: 0
+                product_max_bid_price: 0,
+                product_image_url : result.url,
             }, function (err, result) {
 
                 if (err) {
@@ -166,6 +208,7 @@ exports.directSell = function (req, res) {
                     console.log("Ad posted succesfully");
                     res.redirect('/homepage');
                 }
+            });
             });
         });
 
