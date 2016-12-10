@@ -13,8 +13,8 @@ var session = require('client-sessions');
 
 var mongo = require("./routes/mongo");
 
-var mongoURL = "mongodb://localhost:27017/lessen";
-//var mongoURL = "mongodb://admin:admin@ds119768.mlab.com:19768/lessen";
+//var mongoURL = "mongodb://localhost:27017/lessen";
+var mongoURL = "mongodb://admin:admin@ds119768.mlab.com:19768/lessen";
 
 var routes = require('./routes');
 var user = require('./routes/user');

@@ -2,8 +2,9 @@ var lessenlogger = require('./lessenlogger');
 var ejs = require('ejs');
 var sha256 =  require('crypto-js/sha256');
 var mongo = require("./mongo");
-var mongoURL = "mongodb://localhost:27017/lessen";
-//var mongoURL = "mongodb://admin:admin@ds119768.mlab.com:19768/lessen";
+
+//var mongoURL = "mongodb://localhost:27017/lessen";
+var mongoURL = "mongodb://admin:admin@ds119768.mlab.com:19768/lessen";
 
 var invalid_login = false;
 var invalid_first_name = false;
@@ -190,6 +191,7 @@ exports.register = function(req, res){
 
 exports.redirectToHomepage = function(req, res) {
 
+    //SAND_TODO: check session management
     if (!req.session.user) {
         console.log("Session is invalid!! Redirect!");
         res.redirect('/');
@@ -213,7 +215,7 @@ exports.redirectToHomepage = function(req, res) {
             if (categories) {
                 //console.log("Categories loaded: ", categories);
                 //Load all products:
-                productColl.find({}).toArray(function(err, products) {
+                productColl.find({is_admin_approved: true}).toArray(function(err, products) {
                     if (err)
                         throw err;
                     console.log("Rendering Homepage!!!!! ");
