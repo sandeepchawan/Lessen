@@ -1,3 +1,4 @@
+
 {"level":"info","message":"sand@sand trying to login","timestamp":"2016-11-21T04:56:13.957Z"}
 {"level":"info","message":"sand@sand failed to login","timestamp":"2016-11-21T04:56:13.985Z"}
 {"level":"info","message":"sand@sand.com trying to login","timestamp":"2016-11-21T04:56:22.570Z"}
@@ -246,3 +247,85 @@
 {"level":"info","message":"User Sandeep Kumar is being redirected to homepage","timestamp":"2016-12-03T18:52:20.461Z"}
 {"level":"info","message":"User Sandeep Kumar is viewing product 584280e308654b087772f794","timestamp":"2016-12-03T18:52:23.695Z"}
 {"level":"info","message":"User Sandeep Kumar is being redirected to homepage","timestamp":"2016-12-03T18:53:31.223Z"}
+{"level":"info","message":"neha.kumar@sjsu.edu trying to login","timestamp":"2016-11-28T20:36:48.783Z"}
+{"level":"info","message":"neha.kumar@sjsu.edu logged in","timestamp":"2016-11-28T20:36:48.869Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-28T20:36:48.949Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-28T20:37:06.083Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-28T20:37:08.515Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-28T20:37:17.102Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-28T20:37:19.833Z"}
+{"level":"info","message":"User neha is trying to sell a product","timestamp":"2016-11-28T20:37:23.281Z"}
+{"level":"info","message":"neha.kumar@sjsu.edu trying to login","timestamp":"2016-11-28T21:52:05.015Z"}
+{"level":"info","message":"neha.kumar@sjsu.edu logged in","timestamp":"2016-11-28T21:52:05.069Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-28T21:52:05.099Z"}
+{"level":"info","message":"User neha is trying to sell a product","timestamp":"2016-11-28T21:52:10.307Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-28T21:52:22.704Z"}
+{"level":"info","message":"User neha is viewing product 58360d247c7a52238cc8f1f4","timestamp":"2016-11-28T21:52:28.362Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-28T21:52:35.621Z"}
+{"level":"info","message":"neha.kumar@sjsu.edu trying to login","timestamp":"2016-11-28T23:07:09.352Z"}
+{"level":"info","message":"neha.kumar@sjsu.edu logged in","timestamp":"2016-11-28T23:07:11.804Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-28T23:07:12.557Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-28T23:07:34.548Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-28T23:13:49.944Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-28T23:26:44.922Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-28T23:26:52.350Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-28T23:26:56.623Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-28T23:28:57.015Z"}
+{"level":"info","message":"neha.kumar@sjsu.edu trying to login","timestamp":"2016-11-28T23:31:28.810Z"}
+{"level":"info","message":"neha.kumar@sjsu.edu logged in","timestamp":"2016-11-28T23:31:28.834Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-28T23:31:28.857Z"}
+{"level":"info","message":"neha.kumar@sjsu.edu trying to login","timestamp":"2016-11-28T23:44:59.975Z"}
+{"level":"info","message":"neha.kumar@sjsu.edu logged in","timestamp":"2016-11-28T23:45:00.034Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-28T23:45:00.068Z"}
+{"level":"info","message":"neha.kumar@sjsu.edu trying to login","timestamp":"2016-11-28T23:59:38.182Z"}
+{"level":"info","message":"neha.kumar@sjsu.edu logged in","timestamp":"2016-11-28T23:59:38.199Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-28T23:59:38.224Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-28T23:59:49.680Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:01:06.934Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:19:06.118Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:19:12.589Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:19:20.784Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:19:24.991Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:19:31.510Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:23:33.682Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:23:37.524Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:24:23.493Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:24:34.813Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:25:13.756Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:26:07.469Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:26:22.489Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:26:48.707Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:27:04.972Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:27:25.073Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:28:09.357Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:28:12.631Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:28:19.786Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:28:36.309Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:29:01.544Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:29:08.220Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:29:38.111Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:29:49.637Z"}
+{"level":"info","message":"User neha is trying to sell a product","timestamp":"2016-11-29T00:29:53.692Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:34:39.511Z"}
+{"level":"info","message":"User neha is checking his bid history","timestamp":"2016-11-29T00:34:45.507Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:34:49.914Z"}
+{"level":"info","message":"User neha is checking his bid history","timestamp":"2016-11-29T00:34:54.283Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:43:38.065Z"}
+{"level":"info","message":"neha.kumar@sjsu.edu trying to login","timestamp":"2016-11-29T00:44:04.240Z"}
+{"level":"info","message":"neha.kumar@sjsu.edu logged in","timestamp":"2016-11-29T00:44:04.265Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:44:04.297Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:44:31.065Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:44:33.600Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:44:45.326Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:44:49.292Z"}
+{"level":"info","message":"User neha is viewing product 58360d247c7a52238cc8f1f4","timestamp":"2016-11-29T00:44:53.184Z"}
+{"level":"info","message":"User neha is trying to sell a product","timestamp":"2016-11-29T00:45:04.720Z"}
+{"level":"info","message":"User neha is trying to sell a product via auction","timestamp":"2016-11-29T00:45:43.569Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:45:44.070Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:55:04.414Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:55:22.773Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:55:38.939Z"}
+{"level":"info","message":"User neha is searching for a product in categoryundefined","timestamp":"2016-11-29T00:55:56.019Z"}
+{"level":"info","message":"User neha is being redirected to homepage","timestamp":"2016-11-29T00:56:06.289Z"}
+{"level":"info","message":"User neha is trying to sell a product","timestamp":"2016-11-29T00:56:10.014Z"}
+

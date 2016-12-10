@@ -1,0 +1,28 @@
+/*var fs = require('fs');
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+*/
+var express = require('express');
+/*
+exports.SaveImage = function(request,response){	
+	//var imageurl = request.body.imageurl;
+	var imageBank = {};
+	imageBank.image_url = request.body.image_url;
+	imageBank.name = request.body.imagename;
+	imageBank.imageid = request.body.imageid;
+	mongo.connect('mongoURL', function() {
+	var imageColl = mongo.collection('Uploads');
+	mongoDbHelper.insertIntoCollection(imageColl, imageBank, function() {
+		mongodb.MongoClient.connect('mongodb://localhost:27017/binaryGame', function(error, db) {		
+			if(error){
+				response.send({"Status":500,
+					"Message": "Unable to save image "});
+				}else{
+					response.send({"Status":200,
+						"message":"Image saved Successfully"});
+				}
+		});
+	});
+	});		
+};
+*/
