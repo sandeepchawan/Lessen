@@ -1,8 +1,8 @@
 var lessenlogger = require('./lessenlogger');
 var mongo = require("./mongo");
 var crypto = require('crypto');
-var mongoURL = "mongodb://localhost:27017/lessen";
-//var mongoURL = "mongodb://admin:admin@ds119768.mlab.com:19768/lessen";
+//var mongoURL = "mongodb://localhost:27017/lessen";
+var mongoURL = "mongodb://admin:admin@ds119768.mlab.com:19768/lessen";
 var imgStorageLoc = "/Users/apoorvajagadeesh/Desktop/lessenImages/";
 //var imgStorageLoc = "https://drive.google.com/drive/folders/0B8PtUw3ryOIqWTVZbHN5aUZ2SGc?usp=sharing/";
 //var imgStorageLoc = "https://drive.google.com/open?id=0B8PtUw3ryOIqWTVZbHN5aUZ2SGc/";
@@ -166,7 +166,7 @@ exports.directSell = function (req, res) {
             }
         });
 
-
+        var new_price = price*0.20;
 
         mongo.connect(mongoURL, function () {
             console.log('Connected to mongo at: ' + mongoURL);
@@ -186,7 +186,7 @@ exports.directSell = function (req, res) {
                 product_name: name,
                 product_category_id: cat_id,
                 product_category_name: category_name,
-                product_price: price,
+                product_price: new_price,
                 product_condition: condition,
                 product_type: type,
                 // product_seller_id: seller_id,
@@ -199,6 +199,8 @@ exports.directSell = function (req, res) {
                 product_bid_end: 0,
                 product_max_bid_price: 0,
                 product_image_url : result.url,
+                is_admin_approved: false,
+                is_pickup_pending : true
             }, function (err, result) {
 
                 if (err) {
