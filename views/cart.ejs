@@ -17,6 +17,7 @@
             <div class="insidecart">
                 <div class="sellrow">
                     Donor:<span style="color:grey;margin-left:10px"><%= items[i].product_seller.user_firstName%> <%= items[i].product_seller.user_lastName%></span>
+                    <img src="<%= items[i].product_image_url%>" class="img-responsive">
                 </div>
                 <a href="/showproduct/<%= items[i]._id%>"><%=items[i].product_name%></a>
                 $<%=items[i].product_price%>
@@ -24,7 +25,6 @@
                     <div class="remove" style="float:right;color:#135dbd;margin-right:20px;margin-top:130px;">
                         <form action="/cart/remove/<%=items[i]._id%>" method="post" >
                             <input type="submit" class="checkbtn" value="Remove">
-                            <!--<a href="/cart/remove/<%=items[i]._id%>" method="post" role="button">Remove</a>-->
                         </form>
                     </div>
                 </div>
