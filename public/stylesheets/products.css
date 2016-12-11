@@ -145,7 +145,8 @@ a.buybtn:hover {
 }
 
 .h4, h4 {
-    margin-left:150px;
+    /*margin-left:150px;*/
+    margin-left:0px;
 }
 /**responsive**/
 

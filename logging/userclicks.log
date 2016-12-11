@@ -447,3 +447,24 @@
 {"level":"info","message":"User Neha is ready to make a payment","timestamp":"2016-12-11T01:24:52.533Z"}
 {"level":"info","message":"User Neha is being redirected to homepage","timestamp":"2016-12-11T01:24:57.922Z"}
 {"level":"info","message":"User Neha is being redirected to homepage","timestamp":"2016-12-11T01:27:24.433Z"}
+{"level":"info","message":"neha@neha.com trying to login","timestamp":"2016-12-11T04:58:52.717Z"}
+{"level":"info","message":"neha@neha.com logged in","timestamp":"2016-12-11T04:58:53.424Z"}
+{"level":"info","message":"User Neha is being redirected to homepage","timestamp":"2016-12-11T04:58:53.442Z"}
+{"level":"info","message":"User Neha is viewing product 5849fd7e19d5e6067a84f6e2","timestamp":"2016-12-11T04:59:00.565Z"}
+{"level":"info","message":"User Neha is viewing product 5849fd7e19d5e6067a84f6e2","timestamp":"2016-12-11T05:01:23.649Z"}
+{"level":"info","message":"User Neha is viewing product 5849fd7e19d5e6067a84f6e2","timestamp":"2016-12-11T05:03:03.543Z"}
+{"level":"info","message":"User Neha is viewing product 5849fd7e19d5e6067a84f6e2","timestamp":"2016-12-11T05:03:36.690Z"}
+{"level":"info","message":"User Neha is viewing product 5849fd7e19d5e6067a84f6e2","timestamp":"2016-12-11T05:04:02.751Z"}
+{"level":"info","message":"User Neha is viewing product 5849fd7e19d5e6067a84f6e2","timestamp":"2016-12-11T05:04:44.277Z"}
+{"level":"info","message":"neha@neha.com trying to login","timestamp":"2016-12-11T05:31:46.879Z"}
+{"level":"info","message":"neha@neha.com logged in","timestamp":"2016-12-11T05:31:47.594Z"}
+{"level":"info","message":"User Neha is being redirected to homepage","timestamp":"2016-12-11T05:31:47.616Z"}
+{"level":"info","message":"User Neha is viewing product 5849fd7e19d5e6067a84f6e2","timestamp":"2016-12-11T05:31:51.293Z"}
+{"level":"info","message":"User Neha is being redirected to homepage","timestamp":"2016-12-11T05:31:58.075Z"}
+{"level":"info","message":"User Neha is viewing product 584a28110fcb32087a590b8e","timestamp":"2016-12-11T05:32:00.613Z"}
+{"level":"info","message":"User Neha is being redirected to homepage","timestamp":"2016-12-11T05:32:04.313Z"}
+{"level":"info","message":"User Neha is viewing product 5849f2dc39c30d05e147ebcd","timestamp":"2016-12-11T05:32:07.313Z"}
+{"level":"info","message":"User Neha is viewing product 5849f2dc39c30d05e147ebcd","timestamp":"2016-12-11T05:37:36.665Z"}
+{"level":"info","message":"User Neha is viewing product 5849f2dc39c30d05e147ebcd","timestamp":"2016-12-11T05:40:29.066Z"}
+{"level":"info","message":"User Neha is being redirected to homepage","timestamp":"2016-12-11T05:40:40.860Z"}
+{"level":"info","message":"User Neha is viewing product 5849f2dc39c30d05e147ebcd","timestamp":"2016-12-11T05:40:43.918Z"}
