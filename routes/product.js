@@ -303,7 +303,7 @@ exports.search = function (req, res) {
     console.log("Product being searched for is: ", text);
     console.log("Category of product being searched is: ", cat);
 
-    //var categoryQuery = "SELECT * FROM category";
+    //  var categoryQuery = "SELECT * FROM category";
     lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is searching for a product in category' + cat);
 
     mongo.connect(mongoURL, function () {
