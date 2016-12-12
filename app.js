@@ -40,8 +40,8 @@ var app = express();
 app.use(session({
         cookieName: 'session',
         secret: 'lessen_secret',
-        duration: 30 * 60 * 1000,    //setting the time for active session
-        activeDuration: 10 * 60 * 1000,
+        duration: 50 * 60 * 1000,    //setting the time for active session
+        activeDuration: 30 * 60 * 1000,
     })
 ); // setting time for the session to be active when the window is open // 10 minutes set currently
 

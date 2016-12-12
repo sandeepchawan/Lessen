@@ -34,7 +34,8 @@ exports.login = function(req, res) {
 
 exports.validateUser = function(req, res) {
 
-    lessenlogger.clicklogger.log('info', req.param("username") + ' trying to login');
+    //lessenlogger.clicklogger.log('info', req.param("username") + ' trying to login');
+    lessenlogger.clicklogger.info(req.param("username") + 'is trying to login', {'user':req.param("username"), 'url_clicked':'/validateuser'});
 
     var username = req.param("username");
     var password = req.param("password");
@@ -50,6 +51,7 @@ exports.validateUser = function(req, res) {
                 console.log("User found in DB");
                 // This way subsequent requests will know the user is logged in.
                 req.session.user = user;
+                console.log("Setting session", req.session.user);
                 //console.log(req.session.user +" is the session");
                 //update login time
                 console.log(" Before Setting login time for user");
@@ -58,17 +60,18 @@ exports.validateUser = function(req, res) {
                     if (err)
                         throw err;
                     console.log("Setting login time for user");
+                    //lessenlogger.clicklogger.info(req.session.user.user_email + 'has logged in', {'user':req.session.user.user_email, 'url_clicked':'/validateuser'});
+                    req.session.user = user;
+                    //  res.send(json_responses);
+                    res.redirect('/homepage');
                 });
                 console.log(" After Setting login time for user");
                 //json_responses = {"statusCode" : 200};
-                lessenlogger.clicklogger.log('info', req.param("username") + ' logged in');
-              //  res.send(json_responses);
-                res.redirect('/homepage');
-
             } else {
                 console.log("User entry not found, returned false");
                // json_responses = {"statusCode" : 401};
-                lessenlogger.clicklogger.log('info', req.param("username") + ' failed to login');
+                //lessenlogger.clicklogger.log('info', req.param("username") + ' failed to login');
+                lessenlogger.clicklogger.info(req.session.user.user_email + 'failed to log in', {'user':req.session.user.user_email, 'url_clicked':'/validateuser'});
                // res.send(json_responses);
                 res.redirect('/');
             }
@@ -94,7 +97,8 @@ exports.register = function(req, res){
     console.log("SHA 256 password is: ", sha256_password);
 
     console.log('Registering new user ' + email);
-    lessenlogger.clicklogger.log('info', 'New user ' + email + ' trying to register');
+   // lessenlogger.clicklogger.log('info', 'New user ' + email + ' trying to register');
+    lessenlogger.clicklogger.info(email + ' is trying to register', {'user':email, 'url_clicked':'/register'});
 
     //Can do some basic checks for ZIP, PHONE, DOB etc.
 
@@ -136,7 +140,7 @@ exports.register = function(req, res){
     if (invalid_first_name || invalid_last_name || invalid_zip || invalid_email || invalid_phone
         || invalid_city || invalid_state) {
         console.log("invalid registration fields! Redirect!");
-        lessenlogger.clicklogger.log('info', 'New user ' +firstname + ' entered invalid details while registering');
+       // lessenlogger.clicklogger.log('info', 'New user ' +firstname + ' entered invalid details while registering');
         res.redirect('/login');
     } else {
 
@@ -192,6 +196,7 @@ exports.register = function(req, res){
 exports.redirectToHomepage = function(req, res) {
 
     //SAND_TODO: check session management
+    console.log("After Setting session", req.session.user);
     if (!req.session.user) {
         console.log("Session is invalid!! Redirect!");
         res.redirect('/');
@@ -202,7 +207,8 @@ exports.redirectToHomepage = function(req, res) {
 
     console.log("Redirecting to homepage");
    // console.log("User is: ", req.session.user);
-    lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is being redirected to homepage');
+   // lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is being redirected to homepage');
+    lessenlogger.clicklogger.info(req.session.user.user_email + ' is being redirected to homepage', {'user':req.session.user.user_email, 'url_clicked':'/homepage'});
     mongo.connect(mongoURL, function(){
         console.log('Connected to mongo at: ' + mongoURL);
 
@@ -234,7 +240,8 @@ exports.redirectToHomepage = function(req, res) {
 };
 
 exports.logout = function(req, res){
-    lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is being logged out');
+   // lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is being logged out');
+    lessenlogger.clicklogger.info(req.session.user.user_email + ' is logging out', {'user':req.session.user.user_email, 'url_clicked':'/logout'});
     req.session.user= null;
     req.session.product = null;
     req.session.destroy();
