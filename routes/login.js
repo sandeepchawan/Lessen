@@ -187,6 +187,49 @@ exports.register = function(req, res){
         });
     }
 };
+exports.homeWithoutLogin = function(req, res) {
+
+    //SAND_TODO: check session management
+/*    if (!req.session.user) {
+        console.log("Session is invalid!! Redirect!");
+        res.redirect('/');
+        return;
+    }
+
+    res.header('Cache-Control', 'no-cache, private, no-store, must-revalidate, max-stale=0, post-check=0, pre-check=0');
+*/
+    console.log("Redirecting to homepage of Guest User");
+   // console.log("User is: ", req.session.user);
+    lessenlogger.clicklogger.log('info', 'Guest User ' + ' is being redirected to homepage');
+    mongo.connect(mongoURL, function(){
+        console.log('Connected to mongo at: ' + mongoURL);
+
+        var categoryColl = mongo.collection('category');
+        var productColl = mongo.collection('product');
+
+        categoryColl.find({}).toArray(function(err, categories){
+            if (err)
+                throw err;
+            if (categories) {
+                //console.log("Categories loaded: ", categories);
+                //Load all products:
+                productColl.find({"nameValuePairs.is_admin_approved": true}).toArray(function(err, products) {
+                    if (err)
+                        throw err;
+                    console.log("Rendering Homepage!!!!! ");
+                    res.render('HomePageGuest', {
+                        title: 'HOMEPAGE',
+                        //user: req.session.user,
+                        categories: categories,
+                        products: products
+                    });
+                });
+            } else {
+                res.redirect('/login');
+            }
+        });
+    });
+};
 
 
 exports.redirectToHomepage = function(req, res) {

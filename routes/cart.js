@@ -5,8 +5,12 @@ var mongoURL = "mongodb://admin:admin@ds119768.mlab.com:19768/lessen";
 
 //Get CART details
 exports.cart = function (req, res) {
+	if (!req.session.user) {
+        res.redirect('/login');
+       res.redirect('/');
+   }
 
-    //var user_id = req.session.user.user_id;
+    var user_id = req.session.user.user_id;
     var user = req.session.user;
     lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is checking the items in his cart');
 
@@ -30,7 +34,7 @@ exports.cart = function (req, res) {
                 res.render('cart', {
                     title: 'Shopping Cart',
                     items: user.cart,
-                    // total: user.cart_total,
+                    total: user.cart_total,
                     total: cart_total,
                     user: req.session.user
                     //seller: req.session.seller
@@ -43,7 +47,10 @@ exports.cart = function (req, res) {
 
 exports.addToCart = function (req, res) {
     //var user_id = req.session.user.user_id;
-    var user = req.session.user;
+	if (!req.session.user) {
+    res.redirect('/login');
+	}
+	var user = req.session.user;
 
     var product_id = req.body.product_id;
     var seller_id = req.body.seller_id;
@@ -56,6 +63,8 @@ exports.addToCart = function (req, res) {
         var productColl = mongo.collection('product');
         var userColl = mongo.collection('users');
         var user_id_object = require('mongodb').ObjectID(req.session.user._id);
+         //var user_id_object = (req.session.user);
+
         var product_id_object = require('mongodb').ObjectID(product_id);
 
         productColl.findOne({_id: product_id_object}, function (err, product) {
@@ -205,7 +214,7 @@ exports.thankyou = function (req, res) {
 exports.remove = function (req, res) {
 
     var product_id = req.params.pid;
-    //var user_id = req.session.user._id;
+    var user_id = req.session.user._id;
     lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is removing product ' + product_id + ' from his cart');
 
     mongo.connect(mongoURL, function () {

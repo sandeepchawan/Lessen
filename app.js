@@ -71,13 +71,15 @@ app.use(app.router);
 	  //console.log(response);  // Raw response object. 
 	});
 */
-app.get('/', login.login);
+//app.get('/', login.login);
 app.get('/login', login.login);
 app.get('/logout', login.logout);
 
-
+//before login
+app.get('/', login.homeWithoutLogin);
 app.post('/validateuser', login.validateUser);
 
+//after login
 app.get('/homepage',login.redirectToHomepage);
 app.get('/listproducts/:cid', product.listproducts);
 app.get('/showproduct/:pid', product.showProduct);

@@ -17,14 +17,16 @@
             <div class="insidecart">
                 <div class="sellrow">
                     Donor:<span style="color:grey;margin-left:10px"><%= items[i].nameValuePairs.product_seller.user_firstName%> <%= items[i].nameValuePairs.product_seller.user_lastName%></span>
-                    <img src="<%= items[i].nameValuePairs.product_image_url%>" class="img-responsive">
                 </div>
                 <a href="/showproduct/<%= items[i]._id%>"><%=items[i].nameValuePairs.product_name%></a>
                 $<%=items[i].nameValuePairs.product_price%>
+                <br>
                 <div class="sellrow2">
+                     <img width="98" height="100" src="<%= items[i].nameValuePairs.product_image_url%>">
                     <div class="remove" style="float:right;color:#135dbd;margin-right:20px;margin-top:130px;">
                         <form action="/cart/remove/<%=items[i]._id%>" method="post" >
                             <input type="submit" class="checkbtn" value="Remove">
+                            <!--<a href="/cart/remove/<%=items[i]._id%>" method="post" role="button">Remove</a>-->
                         </form>
                     </div>
                 </div>
@@ -37,10 +39,6 @@
 
         </div>
     </div>
-
-
-
-
 
     <div id="rightcontent" class="rightdiv">
         <div class="pb15">
