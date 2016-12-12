@@ -33,7 +33,7 @@
                         for(var i= 0; i < data.length; i++){
                             content += "<a href=";
                             content += "/showproduct/"+data[i]._id +">";
-                            content +=data[i].product_name+"</a><br>";
+                            content +=data[i].nameValuePairs.product_name+"</a><br>";
                         }
                         console.log(content);
                         $("#content_"+catid).html(content);
@@ -72,38 +72,38 @@
     <div class="card">
         <div class="container-fliud">
             <div class="wrapper row">
-                <% if (product.product_type==0) { %>
+                <% if (product.nameValuePairs.product_type==0) { %>
                 <div class="preview col-md-6">
                     <div class="preview-pic tab-content">
-                        <div class="tab-pane active" id="pic-1"><img src="<%= product.product_image_url%>"></div>
+                        <div class="tab-pane active" id="pic-1"><img src="<%= product.nameValuePairs.product_image_url%>"></div>
                     </div>
                 </div>
                 <div class="details col-md-6">
-                    <h3 class="product-title"><%= product.product_name%></h3>
-                    <p class="product-description"><%= product.product_desc%></p>
-                    <h4 class="price">current price: <span>$<%= product.product_price%></span></h4>
+                    <h3 class="product-title"><%= product.nameValuePairs.product_name%></h3>
+                    <p class="product-description"><%= product.nameValuePairs.product_desc%></p>
+                    <h4 class="price">current price: <span>$<%= product.nameValuePairs.product_price%></span></h4>
                     <h5 class="sizes">Stock:
-                        <%if (product.product_stock==0){%>
+                        <%if (product.nameValuePairs.product_stock==0){%>
                         <span>SOLD OUT</span>
                         <%}else{%>
-                        <span><%=product.product_stock%></span>
+                        <span><%=product.nameValuePairs.product_stock%></span>
                         <%}%>
                     </h5>
                     <h5 class="sizes">Condition:
-                        <%if (product.product_condtion==0){%>
+                        <%if (product.nameValuePairs.product_condtion==0){%>
                         <span>Refurbished</span>
                         <%}else{%>
                         <span>New</span>
                         <%}%>
                     </h5>
                     <h5 class="sizes">Donor:
-                        <span><%= product.product_seller.user_firstName + " "+ product.product_seller.user_lastName %></span>
+                        <span><%= product.nameValuePairs.product_seller.user_firstName + " "+ product.nameValuePairs.product_seller.user_lastName %></span>
                     </h5>
                     <div class="action">
                         <form method="post" action= "/cart">
                             <input type="hidden" name="product_id" value= "<%=product._id%>">
-                            <input type="hidden" name="seller_id" value= "<%=product.product_seller._id%>">
-                            <%if (product.product_stock==0){%>
+                            <input type="hidden" name="seller_id" value= "<%=product.nameValuePairs.product_seller._id%>">
+                            <%if (product.nameValuePairs.product_stock==0){%>
                             <input type="submit" class="add-to-cart btn btn-primary" value="Add to cart" disabled/>
                             <%} else {%>
                             <input type="submit" class="add-to-cart btn btn-primary" value="Add to cart"/>
@@ -115,53 +115,53 @@
                 <% }else{ %>
                 <div class="preview col-md-6">
                     <div class="preview-pic tab-content">
-                        <div class="tab-pane active" id="pic-1"><img src="<%= product.product_image_url%>"></div>
+                        <div class="tab-pane active" id="pic-1"><img src="<%= product.nameValuePairs.product_image_url%>"></div>
                     </div>
                 </div>
                 <div class="details col-md-6">
-                    <h3 class="product-title"><%= product.product_name%></h3>
-                    <p class="product-description"><%= product.product_desc%></p>
-                    <h4 class="sizes">current price: <span>$<%= product.product_price%></span></h4>
-                    <p class="sizes">Bid start time: <%= product.Product_bid_start_time%></p>
-                    <p class="sizes">Bid end time: <%= product.product_bid_end_time%></p>
+                    <h3 class="product-title"><%= product.nameValuePairs.product_name%></h3>
+                    <p class="product-description"><%= product.nameValuePairs.product_desc%></p>
+                    <h4 class="sizes">current price: <span>$<%= product.nameValuePairs.product_price%></span></h4>
+                    <p class="sizes">Bid start time: <%= product.nameValuePairs.Product_bid_start_time%></p>
+                    <p class="sizes">Bid end time: <%= product.nameValuePairs.product_bid_end_time%></p>
                     <h5 class="sizes">Stock:
-                        <%if (product.product_stock==0){%>
+                        <%if (product.nameValuePairs.product_stock==0){%>
                         <span>SOLD OUT</span>
                         <%}else{%>
-                        <span><%=product.product_stock%></span>
+                        <span><%=product.nameValuePairs.product_stock%></span>
                         <%}%>
                     </h5>
                     <h5 class="sizes">Condition:
-                        <%if (product.product_condtion==0){%>
+                        <%if (product.nameValuePairs.product_condtion==0){%>
                         <span>Refurbished</span>
                         <%}else{%>
                         <span>New</span>
                         <%}%>
                     </h5>
                     <h5 class="sizes">Donor:
-                        <span><%= product.product_seller.user_firstName + " "+ product.product_seller.user_lastName %></span>
+                        <span><%= product.nameValuePairs.product_seller.user_firstName + " "+ product.nameValuePairs.product_seller.user_lastName %></span>
                     </h5>
                     <% var now = new Date(); %>
-                    <% if (product.product_type==1 && product.product_bid_end_time>now && product.product_bid_end==0) {%>
+                    <% if (product.nameValuePairs.product_type==1 && product.nameValuePairs.product_bid_end_time>now && product.nameValuePairs.product_bid_end==0) {%>
                     <form method="post" name="form2" id="form2" action="/product/bid/<%=product._id%>">
                         <input id="submit" name="submit" type="submit" value="BID!" />
                         <input id="myprice" name="myprice" type="text" />
-                        <input type ="hidden" id="id" name="quantity" value="<%=product.product_stock %>" />
+                        <input type ="hidden" id="id" name="quantity" value="<%=product.nameValuePairs.product_stock %>" />
                     </form>
                     <h4 class="price"> Current highest price:
-                        <%if (product.product_max_bid_price!=0) {%>
-                        $<%=product.product_max_bid_price%>
+                        <%if (product.nameValuePairs.product_max_bid_price!=0) {%>
+                        $<%=product.nameValuePairs.product_max_bid_price%>
                         <%} else {%>
                         Nobody have bid on this yet.
                         <%}%>
                     </h4>
-                    <%} else if (product.product_type==1 && product.product_bid_end_time<now && product.product_bid_end==0){%>
+                    <%} else if (product.nameValuePairs.product_type==1 && product.nameValuePairs.product_bid_end_time<now && product.nameValuePairs.product_bid_end==0){%>
                     <form method="post" name="form2" id="form2" action="/product/bid/<%=product._id%>">
                         <input id="submit" name="submit" type="submit" value="Auction Has Ended!" disabled/>
                     </form>
                     <h4 class="price"> Current highest price:
-                        <%if (product.product_max_bid_price!=0) {%>
-                        $<%=product.product_max_bid_price%>
+                        <%if (product.nameValuePairs.product_max_bid_price!=0) {%>
+                        $<%=product.nameValuePairs.product_max_bid_price%>
                         <%} else {%>
                         Nobody have bid on this yet.
                         <%}%>
@@ -171,8 +171,8 @@
                         <input id="submit" name="submit" type="submit" value="Auction Has Ended! Please Check your Account" disabled/>
                     </form>
                     <h4 class="price"> Current highest price:
-                        <%if (product.product_max_bid_price!=0) {%>
-                        $<%=product.product_max_bid_price%>
+                        <%if (product.nameValuePairs.product_max_bid_price!=0) {%>
+                        $<%=product.nameValuePairs.product_max_bid_price%>
                         <%} else {%>
                         Nobody have bid on this yet.
                         <%}%>

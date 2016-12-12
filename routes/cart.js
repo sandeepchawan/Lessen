@@ -129,8 +129,8 @@ function decrementProductQuantity(user_id, callback) {
                         if (err) {
                             throw err;
                         } else {
-                            var product_stock = parseInt(product.product_stock) - 1;
-                            productColl.update({_id: product_id_object}, {$set: {product_stock: product_stock}}, function (err, product1) {
+                            var product_stock = parseInt(product.nameValuePairs.product_stock) - 1;
+                            productColl.update({_id: product_id_object}, {$set: {"nameValuePairs.product_stock": product_stock}}, function (err, product1) {
                                 if (err) {
                                     throw err;
                                 }

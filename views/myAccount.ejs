@@ -55,7 +55,7 @@
     </div>
     <div class="panel-body"  style="margin-left:20px">
         <% if (purchaseinfo && purchaseinfo.length > 0) {for(var i=0; i<purchaseinfo.length; i++) { %>
-        <p><%= i+1 %>. You purchased items worth : $<%= purchaseinfo[i].product_price %> on <%= purchaseinfo[i].transactionTime%></p>
+        <p><%= i+1 %>. You purchased items worth : $<%= purchaseinfo[i].nameValuePairs.product_price %> on <%= purchaseinfo[i].nameValuePairs.transactionTime%></p>
         <%}} else {%>
         <p>You haven't made any purchases!</p>
         <%}%>
@@ -69,7 +69,7 @@
     <div class="panel-body"  style="margin-left:20px">
 
         <% if (soldinfo && soldinfo.length > 0 ) { for(var i=0; i<soldinfo.length; i++) { %>
-        <p><%= i+1 %>. You donated items worth : $<%= soldinfo[i].product_price %> on <%= soldinfo[i].transactionTime%></p>
+        <p><%= i+1 %>. You donated items worth : $<%= soldinfo[i].nameValuePairs.product_price %> on <%= soldinfo[i].nameValuePairs.transactionTime%></p>
         <%}} else { %>
         <p> You haven't made any donations.</p>
         <%}%>

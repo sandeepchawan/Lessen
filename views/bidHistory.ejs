@@ -36,9 +36,9 @@
             </tr>
             <% for(var i=0; i<result.length; i++) { %>
             <tr>
-                <td><a href="/showproduct/<%= result[i].bid_product._id %>"><%= result[i].bid_product.product_name%></a></td>
-                <td>$<%= result[i].bid_price%></td>
-                <td><%= result[i].bid_time%></td>
+                <td><a href="/showproduct/<%= result[i].nameValuePairs.bid_product._id %>"><%= result[i].nameValuePairs.bid_product.product_name%></a></td>
+                <td>$<%= result[i].nameValuePairs.bid_price%></td>
+                <td><%= result[i].nameValuePairs.bid_time%></td>
             </tr>
             <%}} else { %>
             <p>You haven't made any bids </p>

@@ -52,9 +52,9 @@ exports.showProduct = function (req, res) {
                     else {
                         req.session.product = product;
                         res.render('productInfo1', {
-                            title: product.product_name,
+                            title: product.nameValuePairs.product_name,
                             user: req.session.user,
-                            product: product,
+                            product: product.nameValuePairs,
                             // bresult: bidresult,
                             categories: categories
                         });
@@ -182,7 +182,40 @@ exports.directSell = function (req, res) {
                 product_image_url = result.url;
                 console.log("Product CLOUDINARY 1 image URL is: ", product_image_url);
 
-            productColl.insertOne({
+                var nameValuePairs = {product_name: name,
+                    product_category_id: cat_id,
+                    product_category_name: category_name,
+                    product_price: new_price,
+                    product_condition: condition,
+                    product_type: type,
+                    // product_seller_id: seller_id,
+                    product_seller: req.session.user,
+                    product_desc: desc,
+                    product_stock: quantity,
+                    product_bid_start_price: 0,
+                    product_bid_end_time: 0,
+                    Product_bid_start_time: 0,
+                    product_bid_end: 0,
+                    product_max_bid_price: 0,
+                    product_image_url : result.url,
+                    is_admin_approved: false,
+                    is_pickup_pending : true,
+                    is_pickup_completed: false};
+
+                productColl.insertOne({
+                    nameValuePairs: nameValuePairs
+                }, function (err, result) {
+
+                    if (err) {
+                        console.log("Error while inserting: ", err);
+                        throw err;
+                    } else {
+                        console.log("Ad posted succesfully");
+                        res.redirect('/homepage');
+                    }
+                });
+
+           /* productColl.insertOne({
                 product_name: name,
                 product_category_id: cat_id,
                 product_category_name: category_name,
@@ -210,7 +243,7 @@ exports.directSell = function (req, res) {
                     console.log("Ad posted succesfully");
                     res.redirect('/homepage');
                 }
-            });
+            });*/
             });
         });
 
@@ -381,16 +414,16 @@ exports.bid = function (req, res) {
             var insertToBidHistory = {bid_product: req.session.product,  bid_price: req.body.myprice, bid_time: time};
 
             if (req.body.myprice > req.session.product.product_max_bid_price) {
-                productColl.update({_id: product_id_object}, {$set: {product_max_bid_price: req.body.myprice}}, function (err, product) {
+                productColl.update({_id: product_id_object}, {$set: {"nameValuePairs.product_max_bid_price": req.body.myprice}}, function (err, product) {
                     if (err)
                         throw err;
                 });
             }
 //Push bid history in user collection also?
-            productColl.update({_id: product_id_object}, {$push: {bids: bidplaced}}, function (err, product) {
+            productColl.update({_id: product_id_object}, {$push: {"nameValuePairs.bids": bidplaced}}, function (err, product) {
                 if (err)
                     throw err;
-                userColl.update({_id: user_id_object}, {$push: {bidHistory: insertToBidHistory}}, function (err, user) {
+                userColl.update({_id: user_id_object}, {$push: {"nameValuePairs.bidHistory": insertToBidHistory}}, function (err, user) {
                     //Update the product with new bid values.
                     if (err)
                         throw err;
