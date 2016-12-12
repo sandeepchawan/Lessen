@@ -215,7 +215,7 @@ exports.redirectToHomepage = function(req, res) {
             if (categories) {
                 //console.log("Categories loaded: ", categories);
                 //Load all products:
-                productColl.find({is_admin_approved: true}).toArray(function(err, products) {
+                productColl.find({"nameValuePairs.is_admin_approved": true}).toArray(function(err, products) {
                     if (err)
                         throw err;
                     console.log("Rendering Homepage!!!!! ");
