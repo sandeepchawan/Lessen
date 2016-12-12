@@ -15,13 +15,13 @@ var Twitter = require('twitter');
 	  consumer_secret: 	'dXnAvqaOU1DJfyZRwBt89vrtowl6ktERRgZeGSguDeG32IDwsW',//process.env.TWITTER_CONSUMER_SECRET,
 	  bearer_token: '2353034054-vUPjlz1orl0UWDtogpii9ug1N7Z3k0ZsgObJKJ4'//process.env.TWITTER_BEARER_TOKEN
 	});*/
-
+/*
 var client = new Twitter({
 	  consumer_key: 	'sZiEb2IfPWojSOcdHTm1ziHyD',
 	  consumer_secret: 	'dXnAvqaOU1DJfyZRwBt89vrtowl6ktERRgZeGSguDeG32IDwsW',
 	  access_token_key: '2353034054-vUPjlz1orl0UWDtogpii9ug1N7Z3k0ZsgObJKJ4',
 	  access_token_secret: 'hUIfxiStQx6I5HVVjn4YVKu8FeNGOO2hxL8vRIWV1iF3K'
-	});
+	});*/
 var session = require('client-sessions');
 
 var mongo = require("./routes/mongo");
@@ -64,8 +64,8 @@ app.use(cookieParser());
 app.use(fileUpload());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(app.router);
-
-/*client.post('statuses/update', {status: 'Donation event on Twitter'},  function(error, tweet, response) {
+/*
+client.post('statuses/update', {status: 'Donation event on Twitter'},  function(error, tweet, response) {
 	  if(error) console.log(error);
 	  console.log(tweet);  // Tweet body. 
 	  //console.log(response);  // Raw response object. 

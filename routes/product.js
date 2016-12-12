@@ -34,13 +34,12 @@ exports.showProduct = function (req, res) {
     }*/
     var product_id = req.params.pid;
     console.log("Show product for product_id= ", product_id);
-
-    //lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is viewing product ' + product_id);
-
-   // lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is viewing product ' + product_id);
-    lessenlogger.clicklogger.info(req.session.user.user_email + ' has clicked on show product URL', {'user':req.session.user.user_email, 'url_clicked':'/showProduct'});
-  //  lessenlogger.clicklogger.info(req.session.user.user_email + ' is viewing product logged in', {'user':req.session.user.user_email, 'product_clicked':product_id});
-
+    //if user is registered, log his details
+    if (req.session.user) {
+    
+    	lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is viewing product ' + product_id);
+    	lessenlogger.clicklogger.info(req.session.user.user_email + ' has clicked on show product URL', {'user':req.session.user.user_email, 'url_clicked':'/showProduct'});
+    }
     mongo.connect(mongoURL, function () {
         console.log('Connected to mongo at: ' + mongoURL);
         var productColl = mongo.collection('product');
@@ -56,19 +55,24 @@ exports.showProduct = function (req, res) {
                     if (err)
                         throw err;
                     else {
-                        req.session.product = product;
-                        if (product && product.nameValuePairs && product.nameValuePairs.product_category_name) {
+                        req.session.product = product;                     
+                        
+                        if (req.session.user && product && product.nameValuePairs && product.nameValuePairs.product_category_name) {
                             lessenlogger.clicklogger.info(req.session.user.user_email + ' is viewing product logged in', {
                                 'user': req.session.user.user_email,
                                 'product_clicked': product_id,
                                 'product_category' : product.nameValuePairs.product_category_name
                             });
                         } else {
-                            lessenlogger.clicklogger.info(req.session.user.user_email + ' is viewing product logged in', {
+                        	
+                        	if(req.session.user)
+                        	{
+                        		lessenlogger.clicklogger.info(req.session.user.user_email + ' is viewing product logged in', {
                                 'user': req.session.user.user_email,
                                 'product_clicked': product_id,
                                 'product_category' : 'Other'
-                            });
+                        		});
+                        	}
                         }
                         res.render('productInfo1', {
                             title: product.nameValuePairs.product_name,
