@@ -65,12 +65,12 @@ app.use(fileUpload());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(app.router);
 
-client.post('statuses/update', {status: 'Donation event on Twitter'},  function(error, tweet, response) {
+/*client.post('statuses/update', {status: 'Donation event on Twitter'},  function(error, tweet, response) {
 	  if(error) console.log(error);
 	  console.log(tweet);  // Tweet body. 
 	  //console.log(response);  // Raw response object. 
 	});
-
+*/
 app.get('/', login.login);
 app.get('/login', login.login);
 app.get('/logout', login.logout);
