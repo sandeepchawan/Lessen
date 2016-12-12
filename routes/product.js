@@ -34,7 +34,12 @@ exports.showProduct = function (req, res) {
     }*/
     var product_id = req.params.pid;
     console.log("Show product for product_id= ", product_id);
+
     //lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is viewing product ' + product_id);
+
+   // lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is viewing product ' + product_id);
+    lessenlogger.clicklogger.info(req.session.user.user_email + ' has clicked on show product URL', {'user':req.session.user.user_email, 'url_clicked':'/showProduct'});
+  //  lessenlogger.clicklogger.info(req.session.user.user_email + ' is viewing product logged in', {'user':req.session.user.user_email, 'product_clicked':product_id});
 
     mongo.connect(mongoURL, function () {
         console.log('Connected to mongo at: ' + mongoURL);
@@ -47,11 +52,24 @@ exports.showProduct = function (req, res) {
                 throw err;
             } else {
                 catColl.find({}).toArray(function (err, categories) {
-                    //console.log("Product returned from DB find is: ", product);
+                    console.log("Product returned from DB find is: ", product);
                     if (err)
                         throw err;
                     else {
                         req.session.product = product;
+                        if (product && product.nameValuePairs && product.nameValuePairs.product_category_name) {
+                            lessenlogger.clicklogger.info(req.session.user.user_email + ' is viewing product logged in', {
+                                'user': req.session.user.user_email,
+                                'product_clicked': product_id,
+                                'product_category' : product.nameValuePairs.product_category_name
+                            });
+                        } else {
+                            lessenlogger.clicklogger.info(req.session.user.user_email + ' is viewing product logged in', {
+                                'user': req.session.user.user_email,
+                                'product_clicked': product_id,
+                                'product_category' : 'Other'
+                            });
+                        }
                         res.render('productInfo1', {
                             title: product.nameValuePairs.product_name,
                             user: req.session.user,
@@ -80,11 +98,16 @@ function getCategory(callback) {
 
 exports.sell = function (req, res) {
 
+
 	if (!req.session.user) {
         res.redirect('/login');
        res.redirect('/');
    }
     lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is trying to sell a product');
+
+   // lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is trying to sell a product');
+    lessenlogger.clicklogger.info(req.session.user.user_email + ' has clicked on donate URL', {'user':req.session.user.user_email, 'url_clicked':'/sell'});
+
 
     mongo.connect(mongoURL, function () {
         console.log('Connected to mongo at: ' + mongoURL);
@@ -115,16 +138,28 @@ exports.directSell = function (req, res) {
         res.redirect('/');
     }
     else {
+
         lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is trying to sell a product directly');
         console.log("DONATE !!!!");
+
+     //   lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is trying to sell a product directly');
+        lessenlogger.clicklogger.info(req.session.user.user_email + ' has clicked on donate URL', {'user':req.session.user.user_email, 'url_clicked':'/sell'});
+        console.log("DIRECT SELL !!!!");
+
         var name = req.body.productName;
         var quantity = req.body.productQty;
         var desc = req.body.productDesc;
         var cat_id = req.body.productCategory;
         var condition = req.body.productCondition;
-        var type = 0;
+        var type = 1;
         var price = req.body.productPrice;
         var category_name = "";
+        var end = new Date();
+        var endtime = new Date(end.valueOf() + 4 * 24 * 60 * 60 * 1000); //4 day end for bidding
+        var starttime = new Date();
+        console.log("bid start time is", starttime);
+        var startprice = req.body.productStartPrice;
+
         //set category name
         if (cat_id == 1) {
             category_name = "Motors";
@@ -197,11 +232,11 @@ exports.directSell = function (req, res) {
                     product_seller: req.session.user,
                     product_desc: desc,
                     product_stock: quantity,
-                    product_bid_start_price: 0,
-                    product_bid_end_time: 0,
-                    Product_bid_start_time: 0,
+                    product_bid_start_price: startprice,
+                    product_bid_end_time: endtime,
+                    Product_bid_start_time: starttime,
                     product_bid_end: 0,
-                    product_max_bid_price: 0,
+                    product_max_bid_price: startprice,
                     product_image_url : result.url,
                     is_admin_approved: false,
                     is_pickup_pending : true,
@@ -342,7 +377,8 @@ exports.search = function (req, res) {
     console.log("Category of product being searched is: ", cat);
 
     //  var categoryQuery = "SELECT * FROM category";
-    lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is searching for a product in category' + cat);
+   // lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is searching for a product in category' + cat);
+    lessenlogger.clicklogger.info(req.session.user.user_email + ' is trying to search for products', {'user':req.session.user.user_email, 'url_clicked':'/search'});
 
     mongo.connect(mongoURL, function () {
         console.log('Connected to mongo at: ' + mongoURL);
@@ -402,7 +438,8 @@ exports.bid = function (req, res) {
         res.redirect('/');
     }
     var time =  new Date().toISOString().slice(0, 19).replace('T', ' ');
-    lessenlogger.bidlogger.log('info', 'User ' + req.session.user.user_firstName + ' is bidding for product ' + req.session.product.product_id);
+  //  lessenlogger.bidlogger.log('info', 'User ' + req.session.user.user_firstName + ' is bidding for product ' + req.session.product.product_id);
+    lessenlogger.clicklogger.info(req.session.user.user_email + ' is bidding for a product', {'user':req.session.user.user_email, 'url_clicked':'/showProduct'});
     if (req.body.quantity == 0) {
         res.send('Sold OUT');
     }
@@ -422,6 +459,12 @@ exports.bid = function (req, res) {
                 productColl.update({_id: product_id_object}, {$set: {"nameValuePairs.product_max_bid_price": req.body.myprice}}, function (err, product) {
                     if (err)
                         throw err;
+                    else {
+                        lessenlogger.clicklogger.info(req.session.user.user_email + ' has placed bid for a product',
+                            {'user':req.session.user.user_email,
+                                'product_bid':req.session.product._id,
+                            'bid_price':req.body.myprice});
+                    }
                 });
             }
 //Push bid history in user collection also?

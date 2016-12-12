@@ -6,7 +6,8 @@ var lessenlogger = require('./lessenlogger');
 exports.show = function(req, res) {
 
   if (req.session.user.user_id == req.params.id) {
-    lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is checking his account') ;
+   // lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is checking his account') ;
+    lessenlogger.clicklogger.info(req.session.user.user_email + ' has requested for account check', {'user':req.session.user.user_email, 'url_clicked':'/homepage'});
     res.redirect('/myAccount');
   } else {
     res.redirect('/login');
@@ -18,7 +19,8 @@ exports.account = function(req, res){
   if (!req.session.user) {
     res.redirect('/login');
   }
-  lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is checking his account') ;
+  //lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is checking his account') ;
+  lessenlogger.clicklogger.info(req.session.user.user_email + ' is checking his account', {'user':req.session.user.user_email, 'url_clicked':'/myAccount'});
   mongo.connect(mongoURL, function(){
     console.log('Connected to mongo at: ' + mongoURL);
 
@@ -48,7 +50,8 @@ exports.purchaseHistory = function(req, res){
   if (!req.session.user) {
     res.redirect('/login');
   }
-  lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is checking his purchase history') ;
+  //lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is checking his purchase history') ;
+  lessenlogger.clicklogger.info(req.session.user.user_email + ' is checking his purchase history', {'user':req.session.user.user_email, 'url_clicked':'/purchaseHistory'});
 
   mongo.connect(mongoURL, function(){
     console.log('Connected to mongo at: ' + mongoURL);
@@ -74,7 +77,8 @@ exports.sellHistory = function(req, res){
   if (!req.session.user) {
     res.redirect('/login');
   }
-  lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is checking his sell history') ;
+  //lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is checking his sell history') ;
+  lessenlogger.clicklogger.info(req.session.user.user_email + ' is checking his sell history', {'user':req.session.user.user_email, 'url_clicked':'/sellHistory'});
 
   mongo.connect(mongoURL, function(){
     console.log('Connected to mongo at: ' + mongoURL);
@@ -102,7 +106,8 @@ exports.bidHistory = function(req, res) {
   if (!req.session.user) {
     res.redirect('/login');
   }
-  lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is checking his bid history') ;
+  //lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is checking his bid history') ;
+  lessenlogger.clicklogger.info(req.session.user.user_email + ' is checking his bid history', {'user':req.session.user.user_email, 'url_clicked':'/bidHistory'});
 
   mongo.connect(mongoURL, function(){
     console.log('Connected to mongo at: ' + mongoURL);

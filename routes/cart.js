@@ -12,7 +12,8 @@ exports.cart = function (req, res) {
 
     var user_id = req.session.user.user_id;
     var user = req.session.user;
-    lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is checking the items in his cart');
+   // lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is checking the items in his cart');
+    lessenlogger.clicklogger.info(req.session.user.user_email + ' is checking the items in his cart', {'user':req.session.user.user_email, 'url_clicked':'/cart'});
 
     mongo.connect(mongoURL, function () {
         console.log('Connected to mongo at: ' + mongoURL);
@@ -54,7 +55,8 @@ exports.addToCart = function (req, res) {
 
     var product_id = req.body.product_id;
     var seller_id = req.body.seller_id;
-    lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is adding product' + product_id + 'to his cart');
+  //  lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is adding product' + product_id + 'to his cart');
+    lessenlogger.clicklogger.info(req.session.user.user_email + ' is adding items to his cart', {'user':req.session.user.user_email, 'url_clicked':'/addToCart'});
 
     var seller_name = "GOD";
     mongo.connect(mongoURL, function () {
@@ -92,7 +94,8 @@ exports.addToCart = function (req, res) {
 };
 
 exports.payment = function (req, res) {
-    lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is ready to make a payment');
+    //lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is ready to make a payment');
+    lessenlogger.clicklogger.info(req.session.user.user_email + ' is making a payment', {'user':req.session.user.user_email, 'url_clicked':'/payment'});
     res.render("payment", {
         title: "Pay",
         user: req.session.user
@@ -157,7 +160,8 @@ function decrementProductQuantity(user_id, callback) {
 }
 
 exports.checkout = function (req, res) {
-    lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is trying to do a cart checkout');
+  //  lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is trying to do a cart checkout');
+    lessenlogger.clicklogger.info(req.session.user.user_email + ' is trying to do a cart checkout', {'user':req.session.user.user_email, 'url_clicked':'/checkout'});
 
     var cardnumber, expirydate, cvv;
     var isCardValid = false;
@@ -214,8 +218,13 @@ exports.thankyou = function (req, res) {
 exports.remove = function (req, res) {
 
     var product_id = req.params.pid;
+
     var user_id = req.session.user._id;
     lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is removing product ' + product_id + ' from his cart');
+    //var user_id = req.session.user._id;
+    //lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is removing product ' + product_id + ' from his cart');
+    lessenlogger.clicklogger.info(req.session.user.user_email + ' is removing items from his cart', {'user':req.session.user.user_email, 'url_clicked':'/removeFromCart'});
+
 
     mongo.connect(mongoURL, function () {
         console.log('Connected to mongo at: ' + mongoURL);
