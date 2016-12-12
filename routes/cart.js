@@ -24,7 +24,7 @@ exports.cart = function (req, res) {
                 var cart_total = 0;
                 if (user.cart) {
                     for (var i = 0; i < user.cart.length; i++) {
-                        cart_total += parseInt(user.cart[i].product_price);
+                        cart_total += parseInt(user.cart[i].nameValuePairs.product_price);
                     }
                 }
                 console.log("Cart total after calculation is: ", cart_total);
@@ -265,7 +265,7 @@ function addTransaction(user_id, callback) {
                 //Decrement balance from purchaser
                 var cart_total = 0;
                 for (var k = 0; k < user.cart.length; k++) {
-                    cart_total += parseInt(user.cart[k].product_price);
+                    cart_total += parseInt(user.cart[k].nameValuePairs.product_price);
                 }
                 var user_spent = 0;
                 console.log("User Spent amount till now: ", parseInt(user.user_spent));
@@ -298,10 +298,10 @@ function addTransaction(user_id, callback) {
                         else {
                             //Update earned, balance
                             userColl.findOne({_id: seller_id_object}, function (err, seller2) {
-                                console.log("Product price is :", product.product_price);
+                                console.log("Product price is :", product.nameValuePairs.product_price);
                                 console.log("Seller  earned amount till now: ", parseInt(seller2.user_earned));
-                                var earned = parseInt(seller2.user_earned) + parseInt(product.product_price);
-                            //    var earned = (seller2.user_earned) + (product.product_price);
+                                var earned = parseInt(seller2.user_earned) + parseInt(product.nameValuePairs.product_price);
+                            //    var earned = (seller2.user_earned) + (product.nameValuePairs.product_price);
                                 console.log("Seller  earned amount after selling: ", earned);
 
                                 console.log("Seller  balance amount before selling: ", parseInt(seller2.user_balance));

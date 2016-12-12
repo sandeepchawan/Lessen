@@ -12,3 +12,7 @@
 {"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-12T16:57:49.762Z"}
 {"user":"sand@sand.sand","product_clicked":"584e2336a110c418a4c60025","product_category":"Fashion","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-12T16:57:50.644Z"}
 {"user":"sand@sand","product_bid":"584e2336a110c418a4c60025","bid_price":12,"level":"info","message":"This should be in message","timestamp":"2016-12-11T22:09:51.646Z"}
+{"user":"sand@sand","product_bid":"584e2336a110c418a4c60025","bid_price":10,"level":"info","message":"This should be in message","timestamp":"2016-12-10T22:09:51.646Z"}
+{"user":"sand@sand.sand","url_clicked":"/cart","level":"info","message":"sand@sand.sand is checking the items in his cart","timestamp":"2016-12-12T17:47:54.959Z"}
+{"user":"sand@sand.sand","url_clicked":"/removeFromCart","level":"info","message":"sand@sand.sand is removing items from his cart","timestamp":"2016-12-12T17:48:01.711Z"}
+{"user":"sand@sand.sand","url_clicked":"/cart","level":"info","message":"sand@sand.sand is checking the items in his cart","timestamp":"2016-12-12T17:48:01.729Z"}
