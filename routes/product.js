@@ -3,7 +3,7 @@ var mongo = require("./mongo");
 var crypto = require('crypto');
 //var mongoURL = "mongodb://localhost:27017/lessen";
 var mongoURL = "mongodb://admin:admin@ds119768.mlab.com:19768/lessen";
-var imgStorageLoc = "/Users/apoorvajagadeesh/Desktop/lessenImages/";
+var imgStorageLoc = "C:\Users\mitesh\Desktop\272-proj-images";
 //var imgStorageLoc = "https://drive.google.com/drive/folders/0B8PtUw3ryOIqWTVZbHN5aUZ2SGc?usp=sharing/";
 //var imgStorageLoc = "https://drive.google.com/open?id=0B8PtUw3ryOIqWTVZbHN5aUZ2SGc/";
 var cloudinary = require('cloudinary');
@@ -28,11 +28,15 @@ exports.listproducts = function (req, res) {
 };
 
 exports.showProduct = function (req, res) {
-    if (!req.session.user) {
+   //product info should be viewable to Guest users as well
+	/*if (!req.session.user) {
         res.redirect('/login');
-    }
+    }*/
     var product_id = req.params.pid;
     console.log("Show product for product_id= ", product_id);
+
+    //lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is viewing product ' + product_id);
+
    // lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is viewing product ' + product_id);
     lessenlogger.clicklogger.info(req.session.user.user_email + ' has clicked on show product URL', {'user':req.session.user.user_email, 'url_clicked':'/showProduct'});
   //  lessenlogger.clicklogger.info(req.session.user.user_email + ' is viewing product logged in', {'user':req.session.user.user_email, 'product_clicked':product_id});
@@ -94,8 +98,16 @@ function getCategory(callback) {
 
 exports.sell = function (req, res) {
 
+
+	if (!req.session.user) {
+        res.redirect('/login');
+       res.redirect('/');
+   }
+    lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is trying to sell a product');
+
    // lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is trying to sell a product');
     lessenlogger.clicklogger.info(req.session.user.user_email + ' has clicked on donate URL', {'user':req.session.user.user_email, 'url_clicked':'/sell'});
+
 
     mongo.connect(mongoURL, function () {
         console.log('Connected to mongo at: ' + mongoURL);
@@ -122,13 +134,18 @@ exports.directSell = function (req, res) {
     var randomNumber = crypto.randomBytes(16).toString('hex');
 
     if (!req.session.user) {
-        // res.redirect('/login');
+         res.redirect('/login');
         res.redirect('/');
     }
     else {
+
+        lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is trying to sell a product directly');
+        console.log("DONATE !!!!");
+
      //   lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is trying to sell a product directly');
         lessenlogger.clicklogger.info(req.session.user.user_email + ' has clicked on donate URL', {'user':req.session.user.user_email, 'url_clicked':'/sell'});
         console.log("DIRECT SELL !!!!");
+
         var name = req.body.productName;
         var quantity = req.body.productQty;
         var desc = req.body.productDesc;
