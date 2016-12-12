@@ -16,3 +16,786 @@
 {"user":"sand@sand.sand","url_clicked":"/cart","level":"info","message":"sand@sand.sand is checking the items in his cart","timestamp":"2016-12-12T17:47:54.959Z"}
 {"user":"sand@sand.sand","url_clicked":"/removeFromCart","level":"info","message":"sand@sand.sand is removing items from his cart","timestamp":"2016-12-12T17:48:01.711Z"}
 {"user":"sand@sand.sand","url_clicked":"/cart","level":"info","message":"sand@sand.sand is checking the items in his cart","timestamp":"2016-12-12T17:48:01.729Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-12T18:54:38.545Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-12T18:55:03.994Z"}
+{"user":"sand@sand.sand","url_clicked":"/validateuser","level":"info","message":"sand@sand.sandis trying to login","timestamp":"2016-12-12T18:55:27.990Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T18:55:28.843Z"}
+{"level":"info","message":"User Sandeep Kumar is viewing product 584e23aca110c418a4c60026","timestamp":"2016-12-12T18:55:36.386Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-12T18:55:36.386Z"}
+{"user":"sand@sand.sand","product_clicked":"584e23aca110c418a4c60026","product_category":"Toys&Hobbies","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-12T18:55:37.257Z"}
+{"user":"sand@sand.sand","url_clicked":"/addToCart","level":"info","message":"sand@sand.sand is adding items to his cart","timestamp":"2016-12-12T18:55:41.974Z"}
+{"user":"sand@sand.sand","url_clicked":"/cart","level":"info","message":"sand@sand.sand is checking the items in his cart","timestamp":"2016-12-12T18:55:42.946Z"}
+{"level":"info","message":"User Sandeep Kumar is removing product 584e23aca110c418a4c60026 from his cart","timestamp":"2016-12-12T18:55:49.802Z"}
+{"user":"sand@sand.sand","url_clicked":"/removeFromCart","level":"info","message":"sand@sand.sand is removing items from his cart","timestamp":"2016-12-12T18:55:49.802Z"}
+{"user":"sand@sand.sand","url_clicked":"/cart","level":"info","message":"sand@sand.sand is checking the items in his cart","timestamp":"2016-12-12T18:55:49.833Z"}
+{"user":"sand@sand.sand","url_clicked":"/cart","level":"info","message":"sand@sand.sand is checking the items in his cart","timestamp":"2016-12-12T18:55:58.876Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T18:56:01.926Z"}
+{"level":"info","message":"User Sandeep Kumar is viewing product 584e2fccbd966f174138811b","timestamp":"2016-12-12T18:56:09.624Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-12T18:56:09.624Z"}
+{"user":"sand@sand.sand","product_clicked":"584e2fccbd966f174138811b","product_category":"Other","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-12T18:56:10.467Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T18:56:13.104Z"}
+{"level":"info","message":"User Sandeep Kumar is viewing product 584e2336a110c418a4c60025","timestamp":"2016-12-12T18:56:18.788Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-12T18:56:18.789Z"}
+{"user":"sand@sand.sand","product_clicked":"584e2336a110c418a4c60025","product_category":"Fashion","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-12T18:56:19.623Z"}
+{"user":"sand@sand.sand","url_clicked":"/addToCart","level":"info","message":"sand@sand.sand is adding items to his cart","timestamp":"2016-12-12T18:56:25.479Z"}
+{"user":"sand@sand.sand","url_clicked":"/cart","level":"info","message":"sand@sand.sand is checking the items in his cart","timestamp":"2016-12-12T18:56:26.279Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T18:56:30.966Z"}
+{"level":"info","message":"User Sandeep Kumar is viewing product 584e2272a110c418a4c60024","timestamp":"2016-12-12T18:56:36.572Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-12T18:56:36.573Z"}
+{"user":"sand@sand.sand","product_clicked":"584e2272a110c418a4c60024","product_category":"Toys&Hobbies","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-12T18:56:37.328Z"}
+{"user":"sand@sand.sand","url_clicked":"/addToCart","level":"info","message":"sand@sand.sand is adding items to his cart","timestamp":"2016-12-12T18:56:41.918Z"}
+{"user":"sand@sand.sand","url_clicked":"/cart","level":"info","message":"sand@sand.sand is checking the items in his cart","timestamp":"2016-12-12T18:56:42.837Z"}
+{"level":"info","message":"User Sandeep Kumar is removing product 584e2272a110c418a4c60024 from his cart","timestamp":"2016-12-12T18:56:50.770Z"}
+{"user":"sand@sand.sand","url_clicked":"/removeFromCart","level":"info","message":"sand@sand.sand is removing items from his cart","timestamp":"2016-12-12T18:56:50.771Z"}
+{"user":"sand@sand.sand","url_clicked":"/cart","level":"info","message":"sand@sand.sand is checking the items in his cart","timestamp":"2016-12-12T18:56:50.797Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T18:59:05.184Z"}
+{"level":"info","message":"User Sandeep Kumar is viewing product 584e2fccbd966f174138811b","timestamp":"2016-12-12T18:59:11.275Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-12T18:59:11.276Z"}
+{"user":"sand@sand.sand","product_clicked":"584e2fccbd966f174138811b","product_category":"Other","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-12T18:59:12.093Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T19:08:40.845Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T19:08:45.326Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T19:10:53.828Z"}
+{"level":"info","message":"User Sandeep Kumar is viewing product 584ef554c2ef16159444342a","timestamp":"2016-12-12T19:11:02.060Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-12T19:11:02.060Z"}
+{"user":"sand@sand.sand","product_clicked":"584ef554c2ef16159444342a","product_category":"Other","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-12T19:11:02.953Z"}
+{"level":"info","message":"User Sandeep Kumar is viewing product 584ef554c2ef16159444342a","timestamp":"2016-12-12T19:45:56.020Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-12T19:45:56.025Z"}
+{"user":"sand@sand.sand","product_clicked":"584ef554c2ef16159444342a","product_category":"Other","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-12T19:45:56.989Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-12T19:46:34.391Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-12T19:47:32.455Z"}
+{"level":"info","message":"User Sandeep Kumar is viewing product 584ef74ac2ef161594453470","timestamp":"2016-12-12T19:47:45.577Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-12T19:47:45.578Z"}
+{"user":"sand@sand.sand","product_clicked":"584ef74ac2ef161594453470","product_category":"Other","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-12T19:47:46.376Z"}
+{"level":"info","message":"User Sandeep Kumar is viewing product 584ef74ac2ef161594453470","timestamp":"2016-12-12T19:48:55.283Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-12T19:48:55.284Z"}
+{"user":"sand@sand.sand","product_clicked":"584ef74ac2ef161594453470","product_category":"Other","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-12T19:48:56.231Z"}
+{"user":"sand@sand.sand","url_clicked":"/bidHistory","level":"info","message":"sand@sand.sand is checking his bid history","timestamp":"2016-12-12T19:49:12.678Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T19:49:16.902Z"}
+{"user":"sand@sand.sand","url_clicked":"/sellHistory","level":"info","message":"sand@sand.sand is checking his sell history","timestamp":"2016-12-12T19:49:24.142Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T19:49:27.831Z"}
+{"user":"sand@sand.sand","url_clicked":"/sellHistory","level":"info","message":"sand@sand.sand is checking his sell history","timestamp":"2016-12-12T19:49:38.941Z"}
+{"user":"sand@sand.sand","url_clicked":"/sellHistory","level":"info","message":"sand@sand.sand is checking his sell history","timestamp":"2016-12-12T19:51:58.193Z"}
+{"user":"sand@sand.sand","url_clicked":"/sellHistory","level":"info","message":"sand@sand.sand is checking his sell history","timestamp":"2016-12-12T19:52:05.302Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T19:52:11.182Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T19:52:18.813Z"}
+{"user":"sand@sand.sand","url_clicked":"/logout","level":"info","message":"sand@sand.sand is logging out","timestamp":"2016-12-12T19:52:33.153Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-12T19:52:33.212Z"}
+{"user":"sand@sand.sand","url_clicked":"/validateuser","level":"info","message":"sand@sand.sandis trying to login","timestamp":"2016-12-12T19:53:13.191Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T19:53:14.121Z"}
+{"level":"info","message":"User Sandeep Kumar is trying to sell a product","timestamp":"2016-12-12T19:53:18.114Z"}
+{"user":"sand@sand.sand","url_clicked":"/sell","level":"info","message":"sand@sand.sand has clicked on donate URL","timestamp":"2016-12-12T19:53:18.114Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T19:53:41.597Z"}
+{"user":"sand@sand.sand","url_clicked":"/logout","level":"info","message":"sand@sand.sand is logging out","timestamp":"2016-12-12T19:53:53.146Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-12T19:53:53.200Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-12T19:55:45.117Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-12T19:55:56.766Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-12T19:57:34.829Z"}
+{"user":"sand@sand.sand","url_clicked":"/validateuser","level":"info","message":"sand@sand.sandis trying to login","timestamp":"2016-12-12T20:06:59.149Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T20:06:59.932Z"}
+{"user":"sand@sand.sand","url_clicked":"/myAccount","level":"info","message":"sand@sand.sand is checking his account","timestamp":"2016-12-12T20:07:08.649Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-12T20:33:43.229Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-12T20:38:57.855Z"}
+{"level":"info","message":"User Sandeep Kumar is trying to sell a product","timestamp":"2016-12-12T20:39:05.299Z"}
+{"user":"sand@sand.sand","url_clicked":"/sell","level":"info","message":"sand@sand.sand has clicked on donate URL","timestamp":"2016-12-12T20:39:05.299Z"}
+{"user":"sand@sand.sand","url_clicked":"/myAccount","level":"info","message":"sand@sand.sand is checking his account","timestamp":"2016-12-12T20:40:48.971Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T20:40:53.399Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T20:41:01.929Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.429Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.526Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.545Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.562Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.589Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.608Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.624Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.643Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.659Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.675Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.692Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.711Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.727Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.743Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.760Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.779Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.805Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.823Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.839Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.854Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:24.870Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:25.771Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:25.805Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:25.824Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:25.849Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:25.862Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:25.875Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:25.890Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:25.903Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:25.917Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:25.932Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:25.946Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:25.959Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:25.972Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:25.985Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:25.999Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:26.013Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:26.026Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:26.039Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:26.054Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:26.071Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:26.084Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:31.129Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.035Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.054Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.073Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.096Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.114Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.139Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.160Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.176Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.192Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.213Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.229Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.245Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.261Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.276Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.294Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.310Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.326Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.344Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.360Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:33.376Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T20:43:38.776Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.738Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.763Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.780Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.794Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.808Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.821Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.833Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.844Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.857Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.875Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.891Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.909Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.920Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.931Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.944Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.962Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.973Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.985Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:42.996Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.006Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.018Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.226Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.238Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.247Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.257Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.267Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.277Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.341Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.351Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.361Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.371Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.381Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.391Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.402Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.412Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.421Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.433Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.442Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.451Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.461Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.471Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:43.482Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.497Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.508Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.520Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.529Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.540Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.549Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.558Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.567Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.575Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.586Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.595Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.605Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.615Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.627Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.636Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.645Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.654Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.664Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.678Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.691Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:43:48.702Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:13.755Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:13.846Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:13.868Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:13.895Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:13.915Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:13.933Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:13.955Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:13.974Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:13.991Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:14.009Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:14.029Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:14.049Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:14.065Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:14.081Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:14.099Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:14.115Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:14.132Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:14.149Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:14.163Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:14.180Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:45:14.194Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.319Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.331Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.343Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.354Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.374Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.384Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.396Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.408Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.418Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.429Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.442Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.456Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.466Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.476Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.486Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.497Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.506Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.515Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.527Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.536Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:46:14.545Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:06.896Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:06.918Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:06.938Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:06.956Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:06.974Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:06.991Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:07.010Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:07.043Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:07.062Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:07.082Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:07.100Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:07.119Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:07.138Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:07.160Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:07.182Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:07.209Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:07.231Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:07.249Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:07.269Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:07.293Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:07.315Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.452Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.472Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.503Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.534Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.553Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.571Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.589Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.652Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.667Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.687Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.711Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.726Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.740Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.756Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.771Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.793Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.822Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.837Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.857Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.873Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:10.887Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T20:57:12.767Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.598Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.617Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.644Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.663Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.678Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.692Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.712Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.727Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.741Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.752Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.767Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.784Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.796Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.808Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.823Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.835Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.848Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.862Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.875Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.888Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:17.900Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.085Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.119Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.145Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.157Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.168Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.179Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.190Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.202Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.214Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.227Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.239Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.251Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.265Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.279Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.291Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.302Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.314Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.325Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.336Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.348Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:18.367Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.391Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.408Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.424Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.455Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.507Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.535Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.559Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.578Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.593Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.608Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.628Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.653Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.668Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.687Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.708Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.726Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.744Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.760Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.779Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.796Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T20:57:23.815Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T21:01:57.911Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.472Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.491Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.513Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.528Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.547Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.560Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.575Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.590Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.605Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.624Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.638Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.653Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.684Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.715Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.729Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.760Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.792Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.810Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.826Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.851Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:02.870Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.022Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.070Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.086Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.099Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.125Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.138Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.152Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.164Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.176Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.189Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.202Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.214Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.226Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.237Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.249Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.260Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.273Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.285Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.297Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.324Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:03.337Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:08.704Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:08.726Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:08.745Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:08.761Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:08.777Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:08.794Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:08.814Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:08.831Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:08.848Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:08.873Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:08.899Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:08.921Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:08.939Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:08.955Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:08.973Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:08.994Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:09.031Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:09.045Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:09.059Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:09.073Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:09.088Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:53.302Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:53.587Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:53.631Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:53.661Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:53.692Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:53.730Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:53.761Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:53.899Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:53.939Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:02:54.094Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:15.840Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:15.947Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:16.121Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:16.435Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:16.849Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-12T21:03:17.419Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:17.426Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:17.573Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:17.588Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:17.600Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:17.613Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:17.625Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:17.639Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:17.655Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:17.681Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:17.704Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:17.716Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:17.728Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:17.737Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:17.746Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:17.757Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:17.767Z"}
+{"user":"sand@sand.sand","url_clicked":"/validateuser","level":"info","message":"sand@sand.sandis trying to login","timestamp":"2016-12-12T21:03:50.427Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T21:03:51.295Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.164Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.178Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.185Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.193Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.197Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.202Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.210Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.221Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.226Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.232Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.241Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.247Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.257Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.262Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.273Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.278Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.284Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.303Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.316Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.326Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.338Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.486Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.491Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.496Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.505Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.510Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.516Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.520Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.526Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.535Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.551Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.556Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.565Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.576Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.598Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.624Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.636Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.643Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.648Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.653Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.658Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:03:55.663Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.676Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.682Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.688Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.694Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.710Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.715Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.720Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.727Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.733Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.738Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.743Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.750Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.758Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.765Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.770Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.775Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.780Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.786Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.791Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.796Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:00.802Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.822Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.830Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.840Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.851Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.859Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.866Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.878Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.888Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.895Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.904Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.911Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.919Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.927Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.935Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.943Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.953Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.964Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.972Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:30.980Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:31.009Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:04:31.018Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.037Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.043Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.051Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.056Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.064Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.069Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.075Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.082Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.089Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.095Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.100Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.105Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.111Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.118Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.124Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.129Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.134Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.141Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.152Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.156Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:31.161Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:41.890Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:41.899Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:41.908Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:41.919Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:41.930Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:41.940Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:41.950Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:41.959Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:41.970Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:41.988Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:41.997Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:42.006Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:42.018Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:42.027Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:42.038Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:42.047Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:42.055Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:42.064Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:42.073Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:42.086Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:42.096Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.167Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.176Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.189Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.199Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.209Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.219Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.232Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.241Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.254Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.263Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.271Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.282Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.290Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.300Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.313Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.323Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.332Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.340Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.350Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.358Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:45.367Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T21:05:46.746Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.013Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.045Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.125Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.160Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.209Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.256Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.295Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.354Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.383Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.424Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.487Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.544Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.584Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.612Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.631Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.675Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.712Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.744Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.761Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.793Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:51.828Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.331Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.370Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.398Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.445Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.464Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.478Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.492Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.506Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.520Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.534Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.548Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.563Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.576Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.592Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.606Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.621Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.634Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.649Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.663Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.677Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:52.691Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.724Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.735Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.746Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.756Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.772Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.783Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.793Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.804Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.814Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.823Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.833Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.842Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.851Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.862Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.871Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.881Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.890Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.901Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.910Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.919Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:05:57.927Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:27.969Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.008Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.029Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.047Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.063Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.102Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.120Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.139Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.158Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.179Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.197Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.215Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.232Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.254Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.274Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.294Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.316Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.335Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.352Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.369Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:06:28.385Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.425Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.450Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.477Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.515Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.538Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.557Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.573Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.614Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.637Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.662Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.680Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.699Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.717Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.734Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.752Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.769Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.789Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.808Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.828Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.846Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:07:28.862Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.184Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.189Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.194Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.200Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.205Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.210Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.214Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.221Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.226Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.232Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.238Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.247Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.251Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.257Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.264Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.268Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.274Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.279Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.286Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.294Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand has requested for account check","timestamp":"2016-12-12T21:10:31.301Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T21:21:44.842Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-12T21:22:39.166Z"}
+{"user":"sand@sand.sand","url_clicked":"/validateuser","level":"info","message":"sand@sand.sandis trying to login","timestamp":"2016-12-12T21:22:46.766Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T21:22:47.717Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T21:22:51.304Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T21:50:33.380Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T22:00:48.233Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T22:00:53.352Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T22:00:55.889Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T22:00:58.777Z"}
+{"user":"sand@sand.sand","url_clicked":"/validateuser","level":"info","message":"sand@sand.sandis trying to login","timestamp":"2016-12-12T23:18:51.876Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T23:18:53.672Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:18:59.382Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:20:12.351Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:21:42.717Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T23:21:46.791Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:21:50.810Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:22:28.700Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T23:22:35.155Z"}
+{"user":"sand@sand.sand","url_clicked":"/validateuser","level":"info","message":"sand@sand.sandis trying to login","timestamp":"2016-12-12T23:22:42.876Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T23:22:43.578Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:22:47.084Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:23:48.756Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:29:06.584Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:29:54.770Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:32:13.481Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:32:23.352Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:33:47.780Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:37:07.277Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:37:40.391Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:37:54.192Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:37:57.871Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T23:38:05.620Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:38:10.679Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:38:24.425Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:39:07.772Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:39:49.167Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T23:39:54.067Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:39:57.656Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:40:34.968Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:43:13.205Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:44:04.005Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:46:03.808Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:48:26.687Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:49:29.945Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:49:32.914Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T23:50:01.745Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:50:06.122Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:51:12.549Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:51:17.560Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:51:57.702Z"}
+{"user":"sand@sand.sand","url_clicked":"/events","level":"info","message":"sand@sand.sand is checking the events","timestamp":"2016-12-12T23:52:23.698Z"}

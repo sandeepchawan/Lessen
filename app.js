@@ -34,7 +34,7 @@ var user = require('./routes/user');
 var login = require('./routes/login');
 var product = require('./routes/product');
 var cart = require('./routes/cart');
-
+var events = require('./routes/events')
 var app = express();
 
 app.use(session({
@@ -102,6 +102,8 @@ app.get('/payment', cart.payment);
 app.get('/thankyou', cart.thankyou);
 app.post('/checkout', cart.checkout);
 app.post('/product/bid/:id', product.bid);
+//view events
+app.get('/events', events.events);
 
 /// catch 404 and forwarding to error handler
 app.use(function(req, res, next) {
