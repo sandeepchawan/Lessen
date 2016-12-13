@@ -49,10 +49,11 @@ exports.events = function (req, res) {
         eventColl.find({}).toArray(function(err, events) {
             if (err)
                 throw err;
-            console.log("Rendering Homepage!!!!! ");
+            console.log("Rendering Events!!!!! ");
             res.render('events', {
                 title: 'Donation Events',
-                events: events
+                events: events,
+                user:req.session.user
             });
         });
 

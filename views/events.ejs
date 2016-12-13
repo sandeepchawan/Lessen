@@ -25,7 +25,11 @@
 
 </head>
 <body>
+<%if (user) {%>
+<% include ./navheader.ejs %>
+<%} else {%>
 <% include ./navheaderGuest.ejs %>
+<%}%>
 <div id="maincontent" class="col-sm-100 clearfix">
 <div class="container">
       <% if (events && events.length) { %>

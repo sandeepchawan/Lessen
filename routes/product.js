@@ -36,7 +36,6 @@ exports.showProduct = function (req, res) {
     console.log("Show product for product_id= ", product_id);
     //if user is registered, log his details
     if (req.session.user) {
-    
     	lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is viewing product ' + product_id);
     	lessenlogger.clicklogger.info(req.session.user.user_email + ' has clicked on show product URL', {'user':req.session.user.user_email, 'url_clicked':'/showProduct'});
     }
@@ -55,8 +54,8 @@ exports.showProduct = function (req, res) {
                     if (err)
                         throw err;
                     else {
-                        req.session.product = product;                     
-                        
+                        req.session.product = product;
+
                         if (req.session.user && product && product.nameValuePairs && product.nameValuePairs.product_category_name) {
                             lessenlogger.clicklogger.info(req.session.user.user_email + ' is viewing product logged in', {
                                 'user': req.session.user.user_email,
@@ -64,7 +63,7 @@ exports.showProduct = function (req, res) {
                                 'product_category' : product.nameValuePairs.product_category_name
                             });
                         } else {
-                        	
+
                         	if(req.session.user)
                         	{
                         		lessenlogger.clicklogger.info(req.session.user.user_email + ' is viewing product logged in', {
@@ -139,7 +138,7 @@ exports.directSell = function (req, res) {
 
     if (!req.session.user) {
          res.redirect('/login');
-        res.redirect('/');
+//        res.redirect('/');
     }
     else {
 
@@ -236,11 +235,11 @@ exports.directSell = function (req, res) {
                     product_seller: req.session.user,
                     product_desc: desc,
                     product_stock: quantity,
-                    product_bid_start_price: startprice,
+                    product_bid_start_price: new_price,
                     product_bid_end_time: endtime,
                     Product_bid_start_time: starttime,
                     product_bid_end: 0,
-                    product_max_bid_price: startprice,
+                    product_max_bid_price: new_price,
                     product_image_url : result.url,
                     is_admin_approved: false,
                     is_pickup_pending : true,
@@ -356,7 +355,7 @@ exports.auctionSell = function (req, res) {
                 product_bid_end_time: endtime,
                 Product_bid_start_time: starttime,
                 product_bid_end: 0,
-                product_max_bid_price: 0
+                product_max_bid_price: startprice
             }, function (err, result) {
 
                 if (err) {
@@ -456,10 +455,11 @@ exports.bid = function (req, res) {
             var product_id_object = require('mongodb').ObjectID(req.session.product._id);
             var user_id_object = require('mongodb').ObjectID(req.session.user._id);
 
+            console.log("Bid amount is: ", req.body.myprice);
             var bidplaced = {bid_buyer: req.session.user, bid_price: req.body.myprice, bid_time: time};
             var insertToBidHistory = {bid_product: req.session.product,  bid_price: req.body.myprice, bid_time: time};
 
-            if (req.body.myprice > req.session.product.product_max_bid_price) {
+            if (req.body.myprice > req.session.product.nameValuePairs.product_max_bid_price) {
                 productColl.update({_id: product_id_object}, {$set: {"nameValuePairs.product_max_bid_price": req.body.myprice}}, function (err, product) {
                     if (err)
                         throw err;

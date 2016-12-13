@@ -284,7 +284,12 @@ exports.redirectToHomepage = function(req, res) {
 
 exports.logout = function(req, res){
    // lessenlogger.clicklogger.log('info', 'User ' + req.session.user.user_firstName + ' is being logged out');
-    lessenlogger.clicklogger.info(req.session.user.user_email + ' is logging out', {'user':req.session.user.user_email, 'url_clicked':'/logout'});
+    if (req.session.user) {
+        lessenlogger.clicklogger.info(req.session.user.user_email + ' is logging out', {
+            'user': req.session.user.user_email,
+            'url_clicked': '/logout'
+        });
+    }
     req.session.user= null;
     req.session.product = null;
     req.session.destroy();

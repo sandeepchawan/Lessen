@@ -13,6 +13,7 @@
 {"user":"sand@sand.sand","product_clicked":"584e2336a110c418a4c60025","product_category":"Fashion","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-12T16:57:50.644Z"}
 {"user":"sand@sand","product_bid":"584e2336a110c418a4c60025","bid_price":12,"level":"info","message":"This should be in message","timestamp":"2016-12-11T22:09:51.646Z"}
 {"user":"sand@sand","product_bid":"584e2336a110c418a4c60025","bid_price":10,"level":"info","message":"This should be in message","timestamp":"2016-12-10T22:09:51.646Z"}
+{"user":"sand@sand","product_bid":"584e2336a110c418a4c60025","bid_price":14,"level":"info","message":"This should be in message","timestamp":"2016-12-12T22:09:51.646Z"}
 {"user":"sand@sand.sand","url_clicked":"/cart","level":"info","message":"sand@sand.sand is checking the items in his cart","timestamp":"2016-12-12T17:47:54.959Z"}
 {"user":"sand@sand.sand","url_clicked":"/removeFromCart","level":"info","message":"sand@sand.sand is removing items from his cart","timestamp":"2016-12-12T17:48:01.711Z"}
 {"user":"sand@sand.sand","url_clicked":"/cart","level":"info","message":"sand@sand.sand is checking the items in his cart","timestamp":"2016-12-12T17:48:01.729Z"}
@@ -65,3 +66,137 @@
 {"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-13T01:11:19.772Z"}
 {"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-13T01:11:23.402Z"}
 {"user":"sand@sand.sand","product_clicked":"584f4a4bc2ef16665e886064","product_category":"Other","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-13T01:11:24.111Z"}
+{"user":"sand@sand.sand","url_clicked":"/checkout","level":"info","message":"sand@sand.sand is trying to do a cart checkout","timestamp":"2016-12-13T01:42:23.071Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-13T01:42:35.338Z"}
+{"level":"info","message":"User Sandeep Kumar is trying to sell a product","timestamp":"2016-12-13T01:42:39.652Z"}
+{"user":"sand@sand.sand","url_clicked":"/sell","level":"info","message":"sand@sand.sand has clicked on donate URL","timestamp":"2016-12-13T01:42:39.653Z"}
+{"level":"info","message":"User Sandeep Kumar is trying to sell a product directly","timestamp":"2016-12-13T01:43:47.119Z"}
+{"user":"sand@sand.sand","url_clicked":"/sell","level":"info","message":"sand@sand.sand has clicked on donate URL","timestamp":"2016-12-13T01:43:47.119Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-13T01:43:48.798Z"}
+{"user":"sand@sand","product_bid":"584e2336a110c418a4c12125","bid_price":6,"level":"info","message":"This should be in message","timestamp":"2016-12-11T22:09:51.646Z"}
+{"user":"sand@sand","product_bid":"584e2336a110c418a4c12125","bid_price":4,"level":"info","message":"This should be in message","timestamp":"2016-12-10T22:09:51.646Z"}
+{"user":"sand@sand","product_bid":"584e2336a110c418a4c12125","bid_price":7,"level":"info","message":"This should be in message","timestamp":"2016-12-12T22:09:51.646Z"}
+{"user":"john@john.sand","url_clicked":"/sell","level":"info","message":"sand@sand.sand has clicked on donate URL","timestamp":"2016-12-13T01:43:47.119Z"}
+{"user":"john@john.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-13T01:43:48.798Z"}
+
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T02:13:17.238Z"}
+{"user":"sand@sand.sand","url_clicked":"/validateuser","level":"info","message":"sand@sand.sandis trying to login","timestamp":"2016-12-13T02:13:33.511Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T02:13:34.321Z"}
+{"user":"sand@sand.sand","url_clicked":"/validateuser","level":"info","message":"sand@sand.sandis trying to login","timestamp":"2016-12-13T02:14:05.990Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T02:14:06.770Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T02:14:22.768Z"}
+{"user":"don@don.don","url_clicked":"/register","level":"info","message":"don@don.don is trying to register","timestamp":"2016-12-13T02:16:17.881Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T02:16:18.852Z"}
+{"user":"don@don.don","url_clicked":"/validateuser","level":"info","message":"don@don.donis trying to login","timestamp":"2016-12-13T02:16:36.959Z"}
+{"user":"don@don.don","url_clicked":"/homepage","level":"info","message":"don@don.don is being redirected to homepage","timestamp":"2016-12-13T02:16:37.651Z"}
+{"level":"info","message":"User Donald is trying to sell a product","timestamp":"2016-12-13T02:16:42.580Z"}
+{"user":"don@don.don","url_clicked":"/sell","level":"info","message":"don@don.don has clicked on donate URL","timestamp":"2016-12-13T02:16:42.581Z"}
+{"level":"info","message":"User Donald is trying to sell a product directly","timestamp":"2016-12-13T02:17:56.761Z"}
+{"user":"don@don.don","url_clicked":"/sell","level":"info","message":"don@don.don has clicked on donate URL","timestamp":"2016-12-13T02:17:56.762Z"}
+{"user":"don@don.don","url_clicked":"/homepage","level":"info","message":"don@don.don is being redirected to homepage","timestamp":"2016-12-13T02:17:58.558Z"}
+{"level":"info","message":"User Donald is viewing product 584e24eea110c418a4c60028","timestamp":"2016-12-13T02:18:50.888Z"}
+{"user":"don@don.don","url_clicked":"/showProduct","level":"info","message":"don@don.don has clicked on show product URL","timestamp":"2016-12-13T02:18:50.889Z"}
+{"user":"don@don.don","product_clicked":"584e24eea110c418a4c60028","product_category":"SportingGoods","level":"info","message":"don@don.don is viewing product logged in","timestamp":"2016-12-13T02:18:52.318Z"}
+{"user":"don@don.don","url_clicked":"/addToCart","level":"info","message":"don@don.don is adding items to his cart","timestamp":"2016-12-13T02:18:55.848Z"}
+{"user":"don@don.don","url_clicked":"/cart","level":"info","message":"don@don.don is checking the items in his cart","timestamp":"2016-12-13T02:18:56.531Z"}
+{"user":"don@don.don","url_clicked":"/payment","level":"info","message":"don@don.don is making a payment","timestamp":"2016-12-13T02:18:59.760Z"}
+{"user":"don@don.don","url_clicked":"/checkout","level":"info","message":"don@don.don is trying to do a cart checkout","timestamp":"2016-12-13T02:19:06.053Z"}
+{"user":"don@don.don","url_clicked":"/homepage","level":"info","message":"don@don.don is being redirected to homepage","timestamp":"2016-12-13T02:19:09.545Z"}
+{"level":"info","message":"User Donald is viewing product 584e24eea110c418a4c60028","timestamp":"2016-12-13T02:19:17.537Z"}
+{"user":"don@don.don","url_clicked":"/showProduct","level":"info","message":"don@don.don has clicked on show product URL","timestamp":"2016-12-13T02:19:17.538Z"}
+{"user":"don@don.don","product_clicked":"584e24eea110c418a4c60028","product_category":"SportingGoods","level":"info","message":"don@don.don is viewing product logged in","timestamp":"2016-12-13T02:19:18.193Z"}
+{"user":"don@don.don","url_clicked":"/homepage","level":"info","message":"don@don.don is being redirected to homepage","timestamp":"2016-12-13T02:19:22.114Z"}
+{"level":"info","message":"User Donald is viewing product 584e24eea110c418a4c60028","timestamp":"2016-12-13T02:19:28.215Z"}
+{"user":"don@don.don","url_clicked":"/showProduct","level":"info","message":"don@don.don has clicked on show product URL","timestamp":"2016-12-13T02:19:28.218Z"}
+{"user":"don@don.don","product_clicked":"584e24eea110c418a4c60028","product_category":"SportingGoods","level":"info","message":"don@don.don is viewing product logged in","timestamp":"2016-12-13T02:19:29.597Z"}
+{"level":"info","message":"User Donald is viewing product 584e24eea110c418a4c60028","timestamp":"2016-12-13T02:21:56.540Z"}
+{"user":"don@don.don","url_clicked":"/showProduct","level":"info","message":"don@don.don has clicked on show product URL","timestamp":"2016-12-13T02:21:56.542Z"}
+{"user":"don@don.don","product_clicked":"584e24eea110c418a4c60028","product_category":"SportingGoods","level":"info","message":"don@don.don is viewing product logged in","timestamp":"2016-12-13T02:21:57.226Z"}
+{"level":"info","message":"User Donald is viewing product 584e24eea110c418a4c60028","timestamp":"2016-12-13T02:22:48.178Z"}
+{"user":"don@don.don","url_clicked":"/showProduct","level":"info","message":"don@don.don has clicked on show product URL","timestamp":"2016-12-13T02:22:48.179Z"}
+{"user":"don@don.don","product_clicked":"584e24eea110c418a4c60028","product_category":"SportingGoods","level":"info","message":"don@don.don is viewing product logged in","timestamp":"2016-12-13T02:22:49.723Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T02:33:07.146Z"}
+{"user":"don@don.don","url_clicked":"/logout","level":"info","message":"don@don.don is logging out","timestamp":"2016-12-13T02:33:13.687Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T02:33:13.698Z"}
+{"user":"don@don.don","url_clicked":"/validateuser","level":"info","message":"don@don.donis trying to login","timestamp":"2016-12-13T02:33:32.385Z"}
+{"user":"don@don.don","url_clicked":"/homepage","level":"info","message":"don@don.don is being redirected to homepage","timestamp":"2016-12-13T02:33:34.008Z"}
+{"user":"don@don.don","url_clicked":"/events","level":"info","message":"don@don.don is checking the events","timestamp":"2016-12-13T02:33:37.966Z"}
+{"user":"don@don.don","url_clicked":"/events","level":"info","message":"don@don.don is checking the events","timestamp":"2016-12-13T02:34:51.935Z"}
+{"user":"don@don.don","url_clicked":"/myAccount","level":"info","message":"don@don.don is checking his account","timestamp":"2016-12-13T02:35:29.967Z"}
+{"user":"don@don.don","url_clicked":"/homepage","level":"info","message":"don@don.don is being redirected to homepage","timestamp":"2016-12-13T02:35:33.412Z"}
+{"user":"don@don.don","url_clicked":"/logout","level":"info","message":"don@don.don is logging out","timestamp":"2016-12-13T02:35:37.710Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T02:35:37.721Z"}
+{"user":"sand7@gmail.com","url_clicked":"/register","level":"info","message":"sand7@gmail.com is trying to register","timestamp":"2016-12-13T02:37:19.833Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T02:37:21.160Z"}
+{"user":"sand7@gmail.com","url_clicked":"/validateuser","level":"info","message":"sand7@gmail.comis trying to login","timestamp":"2016-12-13T02:37:37.600Z"}
+{"user":"sand7@gmail.com","url_clicked":"/homepage","level":"info","message":"sand7@gmail.com is being redirected to homepage","timestamp":"2016-12-13T02:37:38.742Z"}
+{"level":"info","message":"User sandeep is viewing product 584f5254d02f3c7d56541a70","timestamp":"2016-12-13T02:38:04.699Z"}
+{"user":"sand7@gmail.com","url_clicked":"/showProduct","level":"info","message":"sand7@gmail.com has clicked on show product URL","timestamp":"2016-12-13T02:38:04.699Z"}
+{"user":"sand7@gmail.com","product_clicked":"584f5254d02f3c7d56541a70","product_category":"Fashion","level":"info","message":"sand7@gmail.com is viewing product logged in","timestamp":"2016-12-13T02:38:05.342Z"}
+{"user":"sand7@gmail.com","url_clicked":"/showProduct","level":"info","message":"sand7@gmail.com is bidding for a product","timestamp":"2016-12-13T02:38:16.598Z"}
+{"user":"sand7@gmail.com","url_clicked":"/homepage","level":"info","message":"sand7@gmail.com is being redirected to homepage","timestamp":"2016-12-13T02:38:17.977Z"}
+{"level":"info","message":"User sandeep is viewing product 584f5254d02f3c7d56541a70","timestamp":"2016-12-13T02:38:22.778Z"}
+{"user":"sand7@gmail.com","url_clicked":"/showProduct","level":"info","message":"sand7@gmail.com has clicked on show product URL","timestamp":"2016-12-13T02:38:22.779Z"}
+{"user":"sand7@gmail.com","product_clicked":"584f5254d02f3c7d56541a70","product_category":"Fashion","level":"info","message":"sand7@gmail.com is viewing product logged in","timestamp":"2016-12-13T02:38:23.400Z"}
+{"level":"info","message":"User sandeep is viewing product 584f5254d02f3c7d56541a70","timestamp":"2016-12-13T02:39:35.128Z"}
+{"user":"sand7@gmail.com","url_clicked":"/showProduct","level":"info","message":"sand7@gmail.com has clicked on show product URL","timestamp":"2016-12-13T02:39:35.129Z"}
+{"user":"sand7@gmail.com","product_clicked":"584f5254d02f3c7d56541a70","product_category":"Fashion","level":"info","message":"sand7@gmail.com is viewing product logged in","timestamp":"2016-12-13T02:39:35.832Z"}
+{"user":"sand7@gmail.com","url_clicked":"/showProduct","level":"info","message":"sand7@gmail.com is bidding for a product","timestamp":"2016-12-13T02:39:46.122Z"}
+{"user":"sand7@gmail.com","url_clicked":"/homepage","level":"info","message":"sand7@gmail.com is being redirected to homepage","timestamp":"2016-12-13T02:39:46.815Z"}
+{"level":"info","message":"User sandeep is viewing product 584f5254d02f3c7d56541a70","timestamp":"2016-12-13T02:39:50.190Z"}
+{"user":"sand7@gmail.com","url_clicked":"/showProduct","level":"info","message":"sand7@gmail.com has clicked on show product URL","timestamp":"2016-12-13T02:39:50.190Z"}
+{"user":"sand7@gmail.com","product_clicked":"584f5254d02f3c7d56541a70","product_category":"Fashion","level":"info","message":"sand7@gmail.com is viewing product logged in","timestamp":"2016-12-13T02:39:51.417Z"}
+{"level":"info","message":"User sandeep is viewing product 584f5254d02f3c7d56541a70","timestamp":"2016-12-13T02:46:47.290Z"}
+{"user":"sand7@gmail.com","url_clicked":"/showProduct","level":"info","message":"sand7@gmail.com has clicked on show product URL","timestamp":"2016-12-13T02:46:47.292Z"}
+{"user":"sand7@gmail.com","product_clicked":"584f5254d02f3c7d56541a70","product_category":"Fashion","level":"info","message":"sand7@gmail.com is viewing product logged in","timestamp":"2016-12-13T02:46:48.004Z"}
+{"user":"sand7@gmail.com","url_clicked":"/showProduct","level":"info","message":"sand7@gmail.com is bidding for a product","timestamp":"2016-12-13T02:47:00.669Z"}
+{"user":"sand7@gmail.com","url_clicked":"/homepage","level":"info","message":"sand7@gmail.com is being redirected to homepage","timestamp":"2016-12-13T02:47:02.093Z"}
+{"user":"sand7@gmail.com","url_clicked":"/homepage","level":"info","message":"sand7@gmail.com is being redirected to homepage","timestamp":"2016-12-13T02:51:51.789Z"}
+{"level":"info","message":"User sandeep is viewing product 584f5254d02f3c7d56541a70","timestamp":"2016-12-13T02:51:58.102Z"}
+{"user":"sand7@gmail.com","url_clicked":"/showProduct","level":"info","message":"sand7@gmail.com has clicked on show product URL","timestamp":"2016-12-13T02:51:58.103Z"}
+{"user":"sand7@gmail.com","product_clicked":"584f5254d02f3c7d56541a70","product_category":"Fashion","level":"info","message":"sand7@gmail.com is viewing product logged in","timestamp":"2016-12-13T02:51:58.770Z"}
+{"user":"sand7@gmail.com","url_clicked":"/showProduct","level":"info","message":"sand7@gmail.com is bidding for a product","timestamp":"2016-12-13T02:52:02.289Z"}
+{"user":"sand7@gmail.com","url_clicked":"/homepage","level":"info","message":"sand7@gmail.com is being redirected to homepage","timestamp":"2016-12-13T02:52:03.760Z"}
+{"level":"info","message":"User sandeep is viewing product 584f5254d02f3c7d56541a70","timestamp":"2016-12-13T02:52:07.738Z"}
+{"user":"sand7@gmail.com","url_clicked":"/showProduct","level":"info","message":"sand7@gmail.com has clicked on show product URL","timestamp":"2016-12-13T02:52:07.738Z"}
+{"user":"sand7@gmail.com","product_clicked":"584f5254d02f3c7d56541a70","product_category":"Fashion","level":"info","message":"sand7@gmail.com is viewing product logged in","timestamp":"2016-12-13T02:52:08.361Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T02:54:34.537Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T02:57:01.763Z"}
+{"user":"sand7@gmail.com","url_clicked":"/validateuser","level":"info","message":"sand7@gmail.comis trying to login","timestamp":"2016-12-13T02:59:18.175Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T02:59:18.971Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T02:59:25.095Z"}
+{"user":"sand7@gmail.com","url_clicked":"/validateuser","level":"info","message":"sand7@gmail.comis trying to login","timestamp":"2016-12-13T02:59:42.388Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T02:59:44.282Z"}
+{"user":"sand8@gmail.com","url_clicked":"/register","level":"info","message":"sand8@gmail.com is trying to register","timestamp":"2016-12-13T03:00:25.993Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T03:00:26.756Z"}
+{"user":"sand8@gmail.com","url_clicked":"/validateuser","level":"info","message":"sand8@gmail.comis trying to login","timestamp":"2016-12-13T03:00:38.199Z"}
+{"user":"sand8@gmail.com","url_clicked":"/homepage","level":"info","message":"sand8@gmail.com is being redirected to homepage","timestamp":"2016-12-13T03:00:38.904Z"}
+{"level":"info","message":"User Sand is trying to sell a product","timestamp":"2016-12-13T03:00:44.175Z"}
+{"user":"sand8@gmail.com","url_clicked":"/sell","level":"info","message":"sand8@gmail.com has clicked on donate URL","timestamp":"2016-12-13T03:00:44.176Z"}
+{"level":"info","message":"User Sand is trying to sell a product","timestamp":"2016-12-13T03:00:58.614Z"}
+{"user":"sand8@gmail.com","url_clicked":"/sell","level":"info","message":"sand8@gmail.com has clicked on donate URL","timestamp":"2016-12-13T03:00:58.615Z"}
+{"user":"sand8@gmail.com","url_clicked":"/validateuser","level":"info","message":"sand8@gmail.comis trying to login","timestamp":"2016-12-13T03:04:01.594Z"}
+{"user":"sand8@gmail.com","url_clicked":"/homepage","level":"info","message":"sand8@gmail.com is being redirected to homepage","timestamp":"2016-12-13T03:04:02.349Z"}
+{"level":"info","message":"User Sand is trying to sell a product","timestamp":"2016-12-13T03:04:07.404Z"}
+{"user":"sand8@gmail.com","url_clicked":"/sell","level":"info","message":"sand8@gmail.com has clicked on donate URL","timestamp":"2016-12-13T03:04:07.406Z"}
+{"level":"info","message":"User Sand is trying to sell a product directly","timestamp":"2016-12-13T03:05:26.166Z"}
+{"user":"sand8@gmail.com","url_clicked":"/sell","level":"info","message":"sand8@gmail.com has clicked on donate URL","timestamp":"2016-12-13T03:05:26.168Z"}
+{"user":"sand8@gmail.com","url_clicked":"/homepage","level":"info","message":"sand8@gmail.com is being redirected to homepage","timestamp":"2016-12-13T03:05:27.926Z"}
+{"user":"sand8@gmail.com","url_clicked":"/homepage","level":"info","message":"sand8@gmail.com is being redirected to homepage","timestamp":"2016-12-13T03:07:17.530Z"}
+{"level":"info","message":"User Sand is trying to sell a product","timestamp":"2016-12-13T03:08:37.805Z"}
+{"user":"sand8@gmail.com","url_clicked":"/sell","level":"info","message":"sand8@gmail.com has clicked on donate URL","timestamp":"2016-12-13T03:08:37.807Z"}
+{"level":"info","message":"User Sand is trying to sell a product directly","timestamp":"2016-12-13T03:09:17.138Z"}
+{"user":"sand8@gmail.com","url_clicked":"/sell","level":"info","message":"sand8@gmail.com has clicked on donate URL","timestamp":"2016-12-13T03:09:17.139Z"}
+{"user":"sand8@gmail.com","url_clicked":"/homepage","level":"info","message":"sand8@gmail.com is being redirected to homepage","timestamp":"2016-12-13T03:09:19.278Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T03:09:45.251Z"}
+{"user":"sand8@gmail.com","url_clicked":"/validateuser","level":"info","message":"sand8@gmail.comis trying to login","timestamp":"2016-12-13T03:10:04.732Z"}
+{"user":"sand8@gmail.com","url_clicked":"/homepage","level":"info","message":"sand8@gmail.com is being redirected to homepage","timestamp":"2016-12-13T03:10:05.579Z"}
+{"level":"info","message":"User Sand is viewing product 584f665f256c94807bae3b59","timestamp":"2016-12-13T03:11:04.252Z"}
+{"user":"sand8@gmail.com","url_clicked":"/showProduct","level":"info","message":"sand8@gmail.com has clicked on show product URL","timestamp":"2016-12-13T03:11:04.254Z"}
+{"user":"sand8@gmail.com","product_clicked":"584f665f256c94807bae3b59","product_category":"Fashion","level":"info","message":"sand8@gmail.com is viewing product logged in","timestamp":"2016-12-13T03:11:05.002Z"}
+{"user":"sand8@gmail.com","url_clicked":"/showProduct","level":"info","message":"sand8@gmail.com is bidding for a product","timestamp":"2016-12-13T03:11:10.783Z"}
+{"user":"sand8@gmail.com","product_bid":"584f665f256c94807bae3b59","bid_price":"12","level":"info","message":"sand8@gmail.com has placed bid for a product","timestamp":"2016-12-13T03:11:11.376Z"}
+{"user":"sand8@gmail.com","url_clicked":"/homepage","level":"info","message":"sand8@gmail.com is being redirected to homepage","timestamp":"2016-12-13T03:11:11.555Z"}
+{"level":"info","message":"User Sand is viewing product 584f665f256c94807bae3b59","timestamp":"2016-12-13T03:11:15.209Z"}
+{"user":"sand8@gmail.com","url_clicked":"/showProduct","level":"info","message":"sand8@gmail.com has clicked on show product URL","timestamp":"2016-12-13T03:11:15.209Z"}
+{"user":"sand8@gmail.com","product_clicked":"584f665f256c94807bae3b59","product_category":"Fashion","level":"info","message":"sand8@gmail.com is viewing product logged in","timestamp":"2016-12-13T03:11:15.851Z"}

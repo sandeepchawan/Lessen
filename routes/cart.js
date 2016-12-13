@@ -302,7 +302,7 @@ function addTransaction(user_id, callback) {
                 //Add to sellers selling history! , increment balance
                 for (var j = 0; j < user.cart.length; j++) {
                     console.log("User cart length here 1 is :" , user.cart.length);
-                    var seller_id_object = require('mongodb').ObjectID(user.cart[j].product_seller._id);
+                    var seller_id_object = require('mongodb').ObjectID(user.cart[j].nameValuePairs.product_seller._id);
                     user.cart[j].transactionTime = new Date().toISOString().slice(0, 19).replace('T', ' ');
                     var product = user.cart[j];
                     userColl.update({_id: seller_id_object}, {$push: {sellHistory: product}}, function (err, seller1) {
