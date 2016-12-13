@@ -16,3 +16,52 @@
 {"user":"sand@sand.sand","url_clicked":"/cart","level":"info","message":"sand@sand.sand is checking the items in his cart","timestamp":"2016-12-12T17:47:54.959Z"}
 {"user":"sand@sand.sand","url_clicked":"/removeFromCart","level":"info","message":"sand@sand.sand is removing items from his cart","timestamp":"2016-12-12T17:48:01.711Z"}
 {"user":"sand@sand.sand","url_clicked":"/cart","level":"info","message":"sand@sand.sand is checking the items in his cart","timestamp":"2016-12-12T17:48:01.729Z"}
+{"user":"sand@sand.sand","url_clicked":"/validateuser","level":"info","message":"sand@sand.sandis trying to login","timestamp":"2016-12-12T19:10:21.942Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T19:10:23.235Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-12T19:10:30.502Z"}
+{"user":"sand@sand.sand","product_clicked":"584ef554c2ef16159444342a","product_category":"Other","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-12T19:10:31.403Z"}
+{"user":"sand@sand.sand","url_clicked":"/validateuser","level":"info","message":"sand@sand.sandis trying to login","timestamp":"2016-12-12T19:17:28.072Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T19:17:29.948Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-12T19:17:35.751Z"}
+{"user":"sand@sand.sand","product_clicked":"584ef74ac2ef161594453470","product_category":"Other","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-12T19:17:38.511Z"}
+{"user":"sand@sand.sand","url_clicked":"/validateuser","level":"info","message":"sand@sand.sandis trying to login","timestamp":"2016-12-12T20:12:47.710Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-12T20:12:49.016Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T00:06:22.808Z"}
+{"user":"sand@sand.sand","url_clicked":"/validateuser","level":"info","message":"sand@sand.sandis trying to login","timestamp":"2016-12-13T00:07:06.798Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-13T00:07:07.826Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-13T00:07:12.725Z"}
+{"user":"sand@sand.sand","product_clicked":"584e2545a110c418a4c60029","product_category":"Home&Garden","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-13T00:07:13.511Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T00:30:20.692Z"}
+{"user":"sand@sand.sand","url_clicked":"/validateuser","level":"info","message":"sand@sand.sandis trying to login","timestamp":"2016-12-13T00:31:08.467Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-13T00:31:09.833Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-13T00:31:15.834Z"}
+{"user":"sand@sand.sand","product_clicked":"584f40c8bd966f6ae65d4c5c","product_category":"Other","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-13T00:31:17.069Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-13T00:32:55.883Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-13T00:33:03.948Z"}
+{"user":"sand@sand.sand","product_clicked":"584e2fccbd966f174138811b","product_category":"Other","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-13T00:33:04.737Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-13T00:33:09.048Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-13T00:33:13.986Z"}
+{"user":"sand@sand.sand","product_clicked":"584e257aa110c418a4c6002a","product_category":"Home&Garden","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-13T00:33:14.735Z"}
+{"user":"sand@sand.sand","url_clicked":"/cart","level":"info","message":"sand@sand.sand is checking the items in his cart","timestamp":"2016-12-13T00:33:28.041Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-13T00:33:35.432Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-13T00:37:53.427Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-13T00:39:27.896Z"}
+{"user":"sand@sand.sand","product_clicked":"584ef74ac2ef161594453470","product_category":"Other","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-13T00:39:28.652Z"}
+{"user":"sand@sand.sand","url_clicked":"/myAccount","level":"info","message":"sand@sand.sand is checking his account","timestamp":"2016-12-13T00:45:27.780Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-13T00:45:32.178Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-13T00:45:36.698Z"}
+{"user":"sand@sand.sand","product_clicked":"584e2336a110c418a4c60025","product_category":"Fashion","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-13T00:45:37.564Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-13T00:45:39.927Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-13T00:45:44.114Z"}
+{"user":"sand@sand.sand","product_clicked":"584e2545a110c418a4c60029","product_category":"Home&Garden","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-13T00:45:44.766Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-13T00:45:46.424Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-13T00:45:51.771Z"}
+{"user":"sand@sand.sand","product_clicked":"584e26f6a110c418a4c6002c","product_category":"Home&Garden","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-13T00:45:52.406Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-13T00:45:54.703Z"}
+{"user":"sand@sand.sand","url_clicked":"/myAccount","level":"info","message":"sand@sand.sand is checking his account","timestamp":"2016-12-13T00:46:05.813Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-13T00:46:09.546Z"}
+{"level":"info","message":"Guest User  is being redirected to homepage","timestamp":"2016-12-13T01:10:25.611Z"}
+{"user":"sand@sand.sand","url_clicked":"/validateuser","level":"info","message":"sand@sand.sandis trying to login","timestamp":"2016-12-13T01:11:17.960Z"}
+{"user":"sand@sand.sand","url_clicked":"/homepage","level":"info","message":"sand@sand.sand is being redirected to homepage","timestamp":"2016-12-13T01:11:19.772Z"}
+{"user":"sand@sand.sand","url_clicked":"/showProduct","level":"info","message":"sand@sand.sand has clicked on show product URL","timestamp":"2016-12-13T01:11:23.402Z"}
+{"user":"sand@sand.sand","product_clicked":"584f4a4bc2ef16665e886064","product_category":"Other","level":"info","message":"sand@sand.sand is viewing product logged in","timestamp":"2016-12-13T01:11:24.111Z"}
